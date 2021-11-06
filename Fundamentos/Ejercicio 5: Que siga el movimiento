@@ -1,0 +1,32 @@
+Entendamos qué es lo que acabamos de hacer: ¡escribir un programa!
+
+Todo programa tiene exactamente un program: una sección del código que declara los comandos (acciones) que queremos que la máquina realice sobre el tablero inicial. Al ejecutar un programa obtendremos un tablero final.
+
+La sintaxis de un program es bastante simple:
+
+escribimos una línea (renglón) que diga program, seguido de una llave de apertura: {
+a continuación, los comandos: uno por línea
+y finalmente, una última llave que cierra la que abrimos anteriormente }
+Vamos a ver algunos ejemplos de programs:
+
+uno que no hace nada
+program {
+}
+uno que mueve el cabezal una posición hacia el norte
+program {
+  Mover(Norte)
+}
+uno que mueve el cabezal dos posiciones hacia el norte
+program {
+  Mover(Norte)
+  Mover(Norte)
+}
+¡Te toca a vos!
+
+Escribí un programa que en un tablero de 2x4 con el cabezal en el origen (la celda de abajo a la izquierda), mueva el cabezal tres veces hacia el norte:
+
+program {
+  Mover(Norte)
+  Mover(Norte)
+  Mover(Norte)
+}
