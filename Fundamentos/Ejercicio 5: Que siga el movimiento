@@ -30,3 +30,7 @@ program {
   Mover(Norte)
   Mover(Norte)
 }
+
+Como ya sabemos que nuestros programas son ejecutados por la máquina, de ahora en más diremos "escribí un programa que haga ..." en vez de "escribí un programa que provoque que la máquina haga ...".
+
+Pero ojo: la máquina sigue estando ahí y no hay que olvidarla, sólo hacemos esto para escribir un poco menos. 
