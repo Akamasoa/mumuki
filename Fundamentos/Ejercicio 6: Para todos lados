@@ -1,0 +1,26 @@
+Como te imaginarás, el cabezal no sólo se puede mover hacia el Norte, y un programa puede combinar cualquier tipo de movimientos.
+
+Escribí un programa que mueva el cabezal dos posiciones hacia el Este y una hacia el Sur:
+
+program {
+  Mover(Este)
+  Mover(Este)
+  Mover(Sur)
+}
+
+Notá que estos dos programas hacen lo mismo:
+
+program {
+  Mover(Este)
+  Mover(Este)
+  Mover(Sur)
+}
+program {
+  Mover(Este)
+  Mover(Sur)
+  Mover(Este)
+}
+
+Moraleja: como te decíamos al principio ¡no hay una sóla forma de resolver un problema!
+
+Y además, el orden, a veces, no es tan importante. Acompañanos a entender mejor esto.
