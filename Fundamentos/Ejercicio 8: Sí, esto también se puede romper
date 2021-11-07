@@ -1,0 +1,21 @@
+Hasta ahora veníamos tratando de esquivar el asunto, pero seguro ya habrás pensado que tiene que haber alguna forma de romper esto (incluso es posible que ya te haya pasado).
+
+Si bien nunca vamos a querer que nuestro programa se rompa, es algo que definitivamente te va a pasar muchas veces. Pero no es motivo para frustrarse ni mucho menos, te aseguramos que a todo el mundo le pasó alguna vez (bueno, también 2, 3, 100, 800 veces...).
+
+Dicho esto, te vamos a mostrar una forma de hacerlo, simplemente para que no te asustes tanto cuando te pase de verdad .
+
+¿Y cómo es esa forma? Descubrilo vos: partiendo del tablero que te mostramos acá abajo, escribí un programa que provoque que el cabezal se salga fuera de los límites.
+
+program {
+  Mover(Sur)
+  Mover(Este)
+}
+
+¡BOOOOOOOOOOOOOOOOOM!   
+
+Ey, ¿qué pasó?
+Tu programa falló, se rompió, o como lo llamamos en el universo Gobstones: hizo BOOM.
+
+Y, ¿qué significa esto?
+Que los comandos que le diste a la computadora no se pueden ejecutar, y hay algo que vas a tener que cambiar para que funcione. 
+En este ejercicio eso no tiene sentido porque lo hicimos a propósito, pero tenelo en cuenta para cuando falles en el futuro.
