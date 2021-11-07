@@ -24,3 +24,50 @@ program {
 
 ¡Felicitaciones! Acabás de escribir un programa que pone una bolita roja en la celda actual.
 
+y ejecutamos el siguiente programa:
+
+program {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Azul)
+  Poner(Verde)
+  Poner(Rojo)
+}
+el cabezal colocará en la celda actual tres bolitas rojas, una azul y una verde.
+
+¡Escribí este programa en el editor y fijate cómo queda el tablero!
+
+1
+program {
+2
+  Poner(Rojo)
+3
+  Poner(Rojo)
+4
+  Poner(Azul)
+5
+  Poner(Verde)
+6
+  Poner(Rojo)
+7
+}
+
+Notá que en este problema, si cambiamos el orden en que llamamos (usamos a) Poner, el resultado no cambia: siempre nos terminará quedando un tablero con tres bolitas rojas, una azul y una verde.
+
+Por ejemplo, los siguientes dos programas también resuelven este mismo problema:
+
+program {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Verde)
+  Poner(Azul)
+}
+program {
+  Poner(Rojo)
+  Poner(Azul)
+  Poner(Rojo)
+  Poner(Verde)
+  Poner(Rojo)
+}
+
