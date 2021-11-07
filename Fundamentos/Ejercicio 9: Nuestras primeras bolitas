@@ -1,0 +1,26 @@
+Genial, ya entendiste cómo mover el cabezal del tablero usando la operación Mover y las direcciones (Sur, Oeste, etc). Vayamos un paso más allá: las bolitas.
+
+En cualquier celda de nuestro tablero podemos poner bolitas. Las hay de distintos colores:
+
+rojas (Rojo);
+azules (Azul);
+negras (Negro);
+y verdes (Verde).
+Por ejemplo, este es un tablero con una bolita roja y una negra:
+
+Genial, ya entendiste cómo mover el cabezal del tablero usando la operación Mover y las direcciones (Sur, Oeste, etc). Vayamos un paso más allá: las bolitas.
+
+En cualquier celda de nuestro tablero podemos poner bolitas. Las hay de distintos colores:
+
+rojas (Rojo);
+azules (Azul);
+negras (Negro);
+y verdes (Verde).
+Por ejemplo, este es un tablero con una bolita roja y una negra:
+
+program {
+  Poner(Rojo)    
+}
+
+¡Felicitaciones! Acabás de escribir un programa que pone una bolita roja en la celda actual.
+
