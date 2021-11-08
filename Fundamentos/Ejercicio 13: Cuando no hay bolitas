@@ -2,3 +2,12 @@ Cada vez que usamos Sacar, tenemos que tener más cuidado que con Poner, porque.
 
 ¿Querés saber por qué? Intentá sacar una bolita verde o azul de este tablero y descubrilo.
 
+program {
+  Sacar(Verde)
+  Sacar(Azul)
+}
+
+Claro, otra vez BOOM.
+
+Esta vez lo que pasó fue que el cabezal intentó sacar una bolita de un color que no había, y como no sabía qué hacer se autodestruyó. 
+Esto te va a pasar siempre que intentes sacar una bolita que no exista, así que ¡a prestar atención!
