@@ -16,3 +16,35 @@ program {
   Poner(Negro)
 }
 
+Ahora que combinamos operaciones, la cosa se pone un poco mas complicada, porque hay que tener más cuidado con el orden.
+
+Por ejemplo, mirá el programa que escribiste:
+
+program {
+  Poner(Rojo)
+  Mover(Este)
+  Poner(Negro)
+}
+Operacionalmente:
+
+pone una roja
+luego se mueve al este
+luego pone una negra
+Es decir: pone una roja en la posicion inicial, y una negra al este
+
+Y ahora mirá este otro:
+
+program {
+  Mover(Este)
+  Poner(Rojo)
+  Poner(Negro)
+}
+Operacionalmente:
+
+se mueve al este
+luego pone una roja
+luego pone una negra
+Es decir: pone una roja y una negra al este de la posición inicial.
+
+Moraleja: ¡no hacen lo mismo! Cambiar el orden nos cambió el qué.
+
