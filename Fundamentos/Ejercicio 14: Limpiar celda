@@ -1,1 +1,9 @@
 Un último esfuercito: usando Sacar, escribí un programa que elimine todas las bolitas de este tablero:
+
+program {
+  Sacar(Rojo)
+  Sacar(Verde)
+  Sacar(Negro)
+  Sacar(Azul)
+}
+
