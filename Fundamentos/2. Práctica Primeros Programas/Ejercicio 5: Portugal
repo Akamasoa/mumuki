@@ -1,0 +1,22 @@
+Escribí un programa que dibuje una bandera portuguesa, que se ve así:
+
+
+
+Como no nos vamos a poner tan quisquillosos, te vamos a pedir una versión simplificada, que se tiene que ver así:
+
+
+Ah, el cabezal empieza en el origen.
+
+program{
+  Poner(Verde)
+  Mover(Norte)
+  Poner(Verde)
+  Mover(Este)
+  Poner(Rojo)
+  Mover(Sur)
+  Poner(Rojo)
+  Mover(Este)
+  Poner(Rojo)
+  Mover(Norte)
+  Poner(Rojo)
+  }
