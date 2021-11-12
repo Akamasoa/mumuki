@@ -3,3 +3,36 @@ Ya lograste dibujar la bandera de Portugal con Gobstones. Ahora probemos hacer u
 Aunque como en Gobstones no hay amarillo, nos vamos a tomar el atrevimiento de cambiarlo por rojo (perdón Belgrano, no nos queda otra ).
 
 Con el cabezal en el origen, tu tarea es dibujar esta pseudo-bandera argentina:
+
+program {
+  Poner(Azul)
+  Mover(Norte)
+  Mover(Norte)
+  Poner(Azul)
+  Mover(Este)
+  Poner(Azul)
+  Mover(Sur)
+  Mover(Sur)
+  Poner(Azul)
+  Mover(Este)
+  Poner(Azul)
+  Mover(Norte)
+  Poner(Rojo)
+  Mover(Norte)
+  Poner(Azul)
+  Mover(Este)
+  Poner(Azul)
+  Mover(Sur)
+  Mover(Sur)
+  Poner(Azul)
+  Mover(Este)
+  Poner(Azul)
+  Mover(Norte)
+  Mover(Norte)
+  Poner(Azul)  
+}
+
+No quedó muy lindo el programa, ¿no?
+
+Por ahora no podemos hacer nada mejor, pero para que lo vayas pensando: una particularidad de nuestra bandera es su simetría, la franja de arriba es exactamente igual a la de abajo. 
+Si pudieramos crear un comando que dibuje la franja celeste nuestro programa quedaría mucho más simple...
