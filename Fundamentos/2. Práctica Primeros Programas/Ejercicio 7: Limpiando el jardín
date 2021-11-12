@@ -4,3 +4,22 @@ Aunque no sabemos bien por qué Willie piensa que nuestro tablero es un jardín,
 
 Con el cabezal en el origen, escribí un programa que se encargue de "podar" el tablero de la imagen: sacar todas las bolitas verdes. Al finalizar, el cabezal debe terminar donde empezó.
 
+program {
+  Sacar(Verde)
+  Mover(Norte)
+  Sacar(Verde)
+  Mover(Norte)
+  Sacar(Verde)
+  Mover(Este)
+  Sacar(Verde)
+  Mover(Este)
+  Sacar(Verde)
+  Mover(Sur)
+  Sacar(Verde)
+  Mover(Sur)
+  Sacar(Verde)
+  Mover(Oeste)
+  Sacar(Verde)
+  Mover(Oeste)
+}
+
