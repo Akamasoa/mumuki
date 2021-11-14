@@ -1,1 +1,27 @@
 Tomate unos minutos (no más de 3 ) para tratar de descubrir qué es lo que dibuja el programa que te dejamos escrito en el editor.
+
+program {
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Norte)
+  Poner(Negro)
+  Mover(Oeste)
+  Poner(Negro)
+  Mover(Oeste)
+  Poner(Negro)
+  Mover(Norte)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+}
+
+stó un poco, ¿no?
+
+Bueno, eso es normal porque los humanos no somos máquinas y nos cuesta ejecutar un programa en nuestra cabeza. ¡Por suerte existen las computadoras, que se encargan de resolver eso por nosotros !
+
+Pero aún así, ¿no sería mejor si el programa también fuera fácil de entender para un humano?
