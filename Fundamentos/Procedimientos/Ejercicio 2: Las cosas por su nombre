@@ -4,3 +4,30 @@ Mucho más fácil de entender, ¿no?
 
 Enviá el código, así nos aseguramos de que hace exactamente lo mismo que el anterior.
 
+procedure DibujarCuadradoNegroDeLado3() {
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Norte)
+  Poner(Negro)
+  Mover(Oeste)
+  Poner(Negro)
+  Mover(Oeste)
+  Poner(Negro)
+  Mover(Norte)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)    
+}
+
+program {
+  DibujarCuadradoNegroDeLado3()   
+}
+
+Probablemente te estés preguntando ¿cómo supo la computadora lo que tenía que hacer DibujarCuadradoNegroDeLado3?, ¿qué es eso deprocedure?
+
+Vamos entonces al siguiente ejercicio...
