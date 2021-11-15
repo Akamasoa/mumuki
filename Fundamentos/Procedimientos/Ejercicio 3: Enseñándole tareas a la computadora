@@ -6,3 +6,16 @@ Cuando creamos un procedimiento estamos "enseñándole" a la computadora a reali
 
 Ahora es tu turno: escribí un procedimiento Poner3Verdes que ponga 3 bolitas verdes en la celda actual y un program que lo use.
 
+procedure Poner3Verdes (){
+  Poner(Verde)
+  Poner(Verde)
+  Poner(Verde)
+}
+
+program {
+  Poner3Verdes()
+}
+
+Genial, ¡declaraste e invocaste tu primer procedimiento! 
+
+Sigamos con el próximo ejercicio.
