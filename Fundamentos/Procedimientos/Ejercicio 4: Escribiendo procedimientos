@@ -5,3 +5,16 @@ un nombre que represente lo que nuestro procedimiento va a hacer, el cual tiene 
 un bloque de código, que va a ser lo que se ejecute cada vez que invoquemos a nuestro procedimiento. Este bloque empieza con una llave de apertura ({) y termina con una de finalización (}), similar a lo que ya hacíamos para el program.
 Veamos si lo entendiste: escribí un procedimiento Poner3Rojas que ponga 3 bolitas rojas y un program que lo use.
 
+procedure Poner3Rojas () {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+}
+
+program {
+  Poner3Rojas ()
+}
+
+En Gobstones, como en muchos otros lenguajes, los nombres se escriben siguiendo el estilo CamelCase, es decir: sin espacios ni signos de puntuación y usando una mayúscula para cada palabra (si conocés Twitter, probablemente te habrás dado cuenta que los hashtags usan esta misma convención).
+
+Algunos ejemplos válidos: DibujarCuadrado(), Sacar10Bolitas(), LlenarTableroDeBolitasRojas().
