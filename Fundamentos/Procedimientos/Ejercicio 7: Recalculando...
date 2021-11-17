@@ -4,3 +4,17 @@ Antes de seguir, corrijamos esto: modificá el procedimiento que hiciste, esta v
 
 Para que no escribas tanto, te regalamos el comando VolverAtras(), sólo tenés que encargarte de pensar dónde usarlo (si querés ver cómo está hecho, mirá la Biblioteca).
 
+procedure DibujarLineaNegra3() {
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  VolverAtras()
+}
+
+Fijate qué interesante lo que acabás de hacer: definiste un procedimiento (DibujarLineaNegra3) basándote en otro (VolverAtras). 
+Como te dijimos, los procedimientos definen nuevos comandos que luego pueden utilizarse en cualquier lado, como por ejemplo dentro de la definición de otro procedimiento.
+
+Una pequeña muestra del gran poder que nos da la programación, podemos construir nuestras propias herramientas y utilizarlas una y otra vez 
+para resolver problemas más complejos.
