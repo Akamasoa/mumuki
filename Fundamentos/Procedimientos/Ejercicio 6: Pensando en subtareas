@@ -13,3 +13,12 @@ Escribí un procedimiento DibujarLineaNegra3 que, como su nombre lo indica, "dib
 
 Nota: De ahora en más, salvo que se indique lo contrario, el program lo armamos nosotros. Así que sólo tenés que escribir el procedimiento.
 
+procedure DibujarLineaNegra3() {
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+}
+
+Perfecto, ya tenemos nuestra línea, pero hay un inconveniente: el cabezal nos quedó en una posición incómoda para dibujar la siguiente...
