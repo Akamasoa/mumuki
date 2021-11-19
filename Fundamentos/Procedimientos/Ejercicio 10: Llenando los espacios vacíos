@@ -31,4 +31,7 @@ Notá como cada vez que aparece color, este es reemplazado por el valor que pasa
 
 Veamos si se va entendiendo: escribí un programa que ponga tres bolitas verdes usando el procedimiento Poner3.
 
+program {
+  Poner3(Verde)
+}
 
