@@ -1,1 +1,34 @@
+Entendamos qué acabamos de hacer .
+
+Lo primero que hicimos fue declarar un procedimiento, pero con una pequeña diferencia: toma un parámetro, llamado color.
+
+procedure Poner3(color) {
+  Poner(color)
+  Poner(color)
+  Poner(color)
+}
+Los parámetros (esos nombres que van entre paréntesis) son especiales, porque son reemplazados por valores concretos cuando los invocamos. Por ejemplo, si lo invocamos así..
+
+program {
+  Poner3(Negro)
+}
+...lo que se ejecuta es:
+
+Poner(Negro)
+Poner(Negro)
+Poner(Negro)
+Y si lo invocamos así...
+
+program {
+  Poner3(Rojo)
+}
+lo que se ejecuta es:
+
+Poner(Rojo)
+Poner(Rojo)
+Poner(Rojo)
+Notá como cada vez que aparece color, este es reemplazado por el valor que pasamos en la invocación.
+
+Veamos si se va entendiendo: escribí un programa que ponga tres bolitas verdes usando el procedimiento Poner3.
+
 
