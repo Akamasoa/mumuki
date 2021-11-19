@@ -14,4 +14,11 @@ procedure DibujarLineaNegra3() {
 
 Nosotros nos vamos a encargar de escribir los programs para usarlo con cada uno de los colores.
 
-
+procedure DibujarLinea3(color) {
+    Poner(color)
+    Mover(Este)
+    Poner(color)
+    Mover(Este)
+    Poner(color)
+    VolverAtras()
+}
