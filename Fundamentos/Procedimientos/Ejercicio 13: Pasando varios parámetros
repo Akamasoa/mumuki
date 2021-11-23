@@ -15,3 +15,12 @@ procedure DibujarLinea3(color, direccion) {
 
 Tu tarea es ahora escribir un program que use la nueva versión de DibujarLinea3 (no tenés que crearla, sólo usarla) y dibuje un cuadrado multicolor como este:
 
+program {
+  DibujarLinea3(Verde, Este)
+  Mover(Este)
+  DibujarLinea3(Rojo, Norte)
+  Mover(Norte)
+  DibujarLinea3(Negro, Oeste)
+  Mover(Oeste)
+  DibujarLinea3(Azul, Sur)
+}
