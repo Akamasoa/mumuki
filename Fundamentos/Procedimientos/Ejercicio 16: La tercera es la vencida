@@ -20,4 +20,11 @@ mientras que Triada(Azul, Verde, Rojo) haría esto otro:
 
 Implementá el procedimiento Triada, que tiene que tomar 3 parámetros.
 
+procedure Triada(color1, color2, color3){
+  Poner(color1)
+  Mover(Este)
+  Poner(color2)
+  Mover(Este)
+  Poner(color3)
+}
 
