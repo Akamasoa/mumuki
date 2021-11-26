@@ -12,4 +12,25 @@ Como se ve en la imagen, cada una de sus celdas debe tener una bolita de cada co
 
 ¡No te olvides que podes usar procedimientos para dividir tu problema en problemas más chicos!
 
+procedure CuatroColores() {
+  Poner(Rojo)
+  Poner(Azul)
+  Poner(Negro)
+  Poner(Verde)
+}
+procedure Inicio(){
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+}
 
+procedure PonerLineaMulticolor4 (){
+  CuatroColores()
+  Mover(Este)
+  CuatroColores()
+  Mover(Este)
+  CuatroColores()
+  Mover(Este)
+  CuatroColores()
+  Inicio()
+}
