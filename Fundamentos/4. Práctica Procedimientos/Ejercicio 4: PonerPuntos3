@@ -1,0 +1,20 @@
+Implementá un procedimiento PonerPuntos3 que reciba un color y ponga 3 bolitas de ese color hacia el Este, separadas por 2 casilleros. El cabezal tiene que quedar en la misma posición.
+
+Ejemplo de cómo debería quedar el tablero luego de ejecutar PonerPuntos3(Negro):
+
+
+0	1	2	3	4	5	6	
+1	
+1
+0	
+0
+0	1	2	3	4	5	6	
+
+procedure PonerPuntos3 (color) {
+ Poner(color)
+ PonerADistancia3(color, Este)
+ PonerADistancia3(color, Este)
+ repeat(6){
+   Mover(Oeste)
+  }
+}
