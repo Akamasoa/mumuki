@@ -14,3 +14,9 @@ Por ejemplo, si ejecutáramos PonerADistancia3(Rojo, Norte) partiendo desde el o
 0
 0	1	2	3	
 
+procedure PonerADistancia3 (color, direccion){
+  repeat(3){
+    Mover(direccion)
+  }
+  Poner(color)
+}
