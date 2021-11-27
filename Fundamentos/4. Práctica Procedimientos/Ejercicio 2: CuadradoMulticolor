@@ -1,1 +1,20 @@
+Escribí un procedimiento PonerCuadradoMulticolor4 que ponga un cuadrado de 4×4 celdas en el que cada celda tenga una bolita de cada color. El cabezal debe quedar en la celda inicial.
+
+
+0	1	2	3	4	
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	2	3	4	
+
+Usá sin definir el procedimiento PonerLineaMulticolor4 que escribiste antes, ya lo incluimos en la Biblioteca por vos como si fuera una primitiva. 
+En criollo: no tenés que volver a escribir procedure PonerLineaMulticolor4() ..., viene de regalo .
+
 
