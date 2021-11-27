@@ -17,4 +17,15 @@ Escribí un procedimiento PonerCuadradoMulticolor4 que ponga un cuadrado de 4×4
 Usá sin definir el procedimiento PonerLineaMulticolor4 que escribiste antes, ya lo incluimos en la Biblioteca por vos como si fuera una primitiva. 
 En criollo: no tenés que volver a escribir procedure PonerLineaMulticolor4() ..., viene de regalo .
 
-
+procedure PonerCuadradoMulticolor4(){
+  PonerLineaMulticolor4()
+  Mover(Norte)
+  PonerLineaMulticolor4()
+  Mover(Norte)
+  PonerLineaMulticolor4()
+  Mover(Norte)
+  PonerLineaMulticolor4()
+  repeat(3){
+    Mover(Sur)
+  }
+}
