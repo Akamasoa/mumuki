@@ -4,4 +4,16 @@ Vamos ahora con una versión recargada de PonerPuntos3 que, claramente, se va a 
 
 Como una imagen vale más que mil palabras, va un ejemplo de cómo debería quedar el tablero luego de ejecutar PonerPuntos3Recargado(Verde), partiendo de la celda marcada:
 
+Esta vez, no nos interesa dónde quede el cabezal.
 
+procedure PonerPuntos3Recargado(color){
+  Poner(color)
+  PonerADistancia3(color, Este)
+  Poner(color)
+  PonerADistancia3(color, Este)
+  Poner(color)
+  Poner(color)
+  repeat(6){
+    Mover(Oeste)
+  }
+}
