@@ -1,3 +1,15 @@
 Utilizando el procedimiento PonerPuntos3, escribí un programa que dibuje un arco iris, como se muestra a continuación. 
 El cabezal debe quedar en la posición inicial.
 
+program{
+  PonerPuntos3(Azul)
+  Mover(Este)
+  PonerPuntos3(Negro)
+  Mover(Este)
+  PonerPuntos3(Verde)
+  Mover(Oeste)
+  Mover(Norte)
+  PonerPuntos3(Rojo)
+  Mover(Sur)
+  Mover(Oeste)
+}
