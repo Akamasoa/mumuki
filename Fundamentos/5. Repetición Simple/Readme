@@ -1,0 +1,32 @@
+Como te contábamos cuando empezaste, programar nos da un gran poder: nos permite automatizar tareas repetitivas y tediosas.
+
+¿Y qué quiere decir eso de "repetitivas"? Pensemos, por ejemplo, cómo haríamos un programa que ponga 5 bolitas azules:
+
+program {
+  Poner(Azul)    
+  Poner(Azul)    
+  Poner(Azul)    
+  Poner(Azul)    
+  Poner(Azul)    
+}
+¿Notás qué es lo que se repite? Sí, estamos haciendo 5 veces lo mismo: poner una bolita azul. Sin dudas, sería mucho más interesante que la computadora hiciera eso por nosotros... ¡o si no te estaríamos mintiendo con lo de automatizar!
+
+En esta guía vamos a aprender cómo decirle a la computadora que repita varias veces lo mismo, y también algunos trucos más.
+
+Ejercicios 
+ 1. MoverOeste10
+ 2. La computadora repite por nosotros
+ 3. MoverOeste5 usando repeat
+ 4. No todo es repetir
+ 5. También vale después
+ 6. Repitiendo varios comandos
+ 7. ¿Dónde está el error?
+ 8. Diagonal con una bolita
+ 9. Diagonal "pesada"
+ 10. El caso borde
+ 11. De lado a lado, dibujamos un cuadrado
+En esta guía aprendiste algo muy importante: cómo hacer que la computadora repita tareas, usando el comando repeat.
+
+Con esta nueva herramienta ya podés empezar a construir programas mucho más interesantes: recorrer un tablero de dimensiones conocidas, poner o sacar muchas bolitas, parametrizar el dibujo de un cuadrado, etc.
+
+¡Animate a pensar otros ejemplos!
