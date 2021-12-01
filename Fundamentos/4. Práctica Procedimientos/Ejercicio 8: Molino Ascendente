@@ -1,0 +1,24 @@
+Bueno, ahora un ejercicio para pensar un poquito...
+
+Se desea crear un programa que haga un "molino" como el de la figura. El cabezal puede suponerse que ya está en el centro del tablero. Prestar atención que en cada "aspa" va aumentando la cantidad de bolitas a medida que se aleja del centro.
+
+
+0	1	2	3	4	5	6	
+6	
+6
+5	
+5
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	2	3	4	5	6	
+
+Acá es clave pensar qué parte se repite y definir la estrategia a partir de eso.
+
