@@ -22,3 +22,25 @@ Se desea crear un programa que haga un "molino" como el de la figura. El cabezal
 
 Acá es clave pensar qué parte se repite y definir la estrategia a partir de eso.
 
+procedure Molino(color, direccion){
+  Mover(direccion)
+  Poner(color)
+  Mover(direccion)
+  Poner(color)
+  Poner(color)
+  Mover(direccion)
+  Poner(color)
+  Poner(color)
+  Poner(color)
+}
+
+program {
+  Molino(Negro, Norte)
+  Mover3(Sur)
+  Molino(Negro, Este)
+  Mover3(Oeste)
+  Molino(Negro, Oeste)
+  Mover3(Este)
+  Molino(Negro, Sur)
+  Mover3(Norte)
+}
