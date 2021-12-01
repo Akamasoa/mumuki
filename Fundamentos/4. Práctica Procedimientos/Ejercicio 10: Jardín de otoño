@@ -21,3 +21,25 @@ Como ya sabés, el tío es un poco quisquilloso, así que tenés que respetar el
 
 El cabezal empieza en el origen.
 
+procedure Cantero(color){
+  Poner(color)
+  Mover(Norte)
+  Poner(color)
+  Mover(Este)
+  Poner(color)
+  Mover(Sur)
+  Poner(color)
+  Mover(Oeste)
+}
+
+program {
+  Cantero(Rojo)
+  IrAlBorde(Norte)
+  Mover(Sur)
+  Cantero(Negro)
+  IrAlBorde(Este)
+  Mover(Oeste)
+  Cantero(Verde)
+  IrAlBorde(Sur)
+  Cantero(Azul)
+}
