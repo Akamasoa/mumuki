@@ -11,4 +11,8 @@ procedure MoverOeste10() {
 }
 Pero no tenés por qué creernos: ¡escribí este código en el editor y fijate si funciona!
 
-
+procedure MoverOeste10() {
+  repeat(10) {
+    Mover(Oeste)
+  }
+}
