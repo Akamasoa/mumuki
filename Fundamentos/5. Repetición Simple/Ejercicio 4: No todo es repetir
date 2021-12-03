@@ -33,3 +33,23 @@ Inicial		Final
 0
 0	1	2	
 
+procedure Poner3AlNoreste(){
+  Mover(Este)
+  Mover(Norte)
+  repeat(3){
+    Poner(Negro)
+  }
+}
+
+¿Viste qué importante es definir bien qué comandos hay que repetir y cuáles no?
+
+Es muy común, al principio, olvidarse de colocar las llaves o incluso pensar que no son importantes. Pero tené mucho cuidado: poner las llaves en el lugar erróneo puede cambiar por completo lo que hace tu programa. Mirá qué distinto sería el resultado si hubieras puesto el Mover(Este) adentro del repeat:
+
+procedure Poner3AlNoreste() {
+  Mover(Norte)
+
+  repeat(3) {
+    Mover(Este)
+    Poner(Negro)
+  }
+}
