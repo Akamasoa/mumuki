@@ -1,6 +1,5 @@
 Escribí el procedimiento PonerAzulLejos, que coloque una bolita Azul 4 celdas hacia el Este:
 
-
 0	1	2	3	4	
 1	
 1
@@ -8,3 +7,11 @@ Escribí el procedimiento PonerAzulLejos, que coloque una bolita Azul 4 celdas h
 0
 0	1	2	3	4	
 
+procedure PonerAzulLejos(){
+  repeat(4){
+    Mover(Este)
+  }
+   Poner(Azul)
+}
+
+Como ya experimentaste, pueden ponerse comandos tanto antes como después del repeat. En definitiva... ¡es sólo un comando más!
