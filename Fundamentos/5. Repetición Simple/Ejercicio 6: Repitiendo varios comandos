@@ -25,3 +25,9 @@ procedure DibujarLineaNegra6() {
 
 Escribí una versión superadora de DibujarLineaNegra6, esta vez usando repeat.
 
+procedure DibujarLineaNegra6(){
+  repeat(6){
+    Poner(Negro)
+  Mover(Este)
+  }
+}
