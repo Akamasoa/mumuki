@@ -43,3 +43,9 @@ Tablero inicial	Lo que hace	Lo que esperábamos
 
 ¿Nos ayudás a corregirla? Te dejamos el código en el editor.
 
+procedure LineaRoja4() {
+  repeat(4) {
+    Poner(Rojo)
+    Mover(Norte)
+  }
+}
