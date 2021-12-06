@@ -1,0 +1,45 @@
+Mientras corregíamos ejercicios de un compañero tuyo, nos encontramos con una solución para LineaRoja4 que no está del todo bien, mirá:
+
+Tablero inicial	Lo que hace	Lo que esperábamos
+
+0	1	
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	
+
+0	1	
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	
+
+0	1	
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	
+
+¿Nos ayudás a corregirla? Te dejamos el código en el editor.
+
