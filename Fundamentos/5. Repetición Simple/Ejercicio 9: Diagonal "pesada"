@@ -1,0 +1,19 @@
+Ahora vamos a hacer lo mismo, pero en versión "pesada".
+
+¿Qué quiere decir esto? Que en vez de poner 1 bolita en cada celda, ahora hay que poner 21. Mirá la imagen:
+
+0	1	2	3	4	
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	2	3	4	
+
+Construí un procedimiento DiagonalPesada4Azul que resuelva el problema.
+
