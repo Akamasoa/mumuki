@@ -1,0 +1,18 @@
+Creá un procedimiento Diagonal4Azul que dibuje una diagonal de longitud 4 hacia el Noreste, donde cada celda tenga una bolita azul.
+
+El cabezal debe quedar donde muestra la imagen.
+
+
+0	1	2	3	4	
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	2	3	4	
+
