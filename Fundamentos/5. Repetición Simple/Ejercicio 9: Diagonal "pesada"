@@ -17,3 +17,12 @@ Ahora vamos a hacer lo mismo, pero en versión "pesada".
 
 Construí un procedimiento DiagonalPesada4Azul que resuelva el problema.
 
+procedure DiagonalPesada4Azul (){
+  repeat(4){
+    repeat(21){
+     Poner(Azul)
+    }
+    Mover(Norte)
+    Mover(Este)
+  }
+}
