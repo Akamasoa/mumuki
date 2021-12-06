@@ -16,3 +16,10 @@ El cabezal debe quedar donde muestra la imagen.
 0
 0	1	2	3	4	
 
+procedure Diagonal4Azul (){
+  repeat(4){
+    Poner(Azul)
+    Mover(Norte)
+    Mover(Este)
+  }
+}
