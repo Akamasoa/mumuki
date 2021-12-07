@@ -2,3 +2,18 @@ Usando sin definir LineaNegra4Este, escribí un procedimiento CuadradoNegro4 que
 
 Tené en cuenta lo que hablamos en el ejercicio anterior sobre el caso borde.
 
+procedure Volver(){
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+}
+
+procedure CuadradoNegro4 (){
+  repeat(3){
+    LineaNegra4Este()
+    Volver()
+    Mover(Norte)
+    }
+      LineaNegra4Este()
+
+}
