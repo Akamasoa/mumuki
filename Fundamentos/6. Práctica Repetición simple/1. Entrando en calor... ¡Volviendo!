@@ -23,3 +23,16 @@ procedure Diagonal4Azul(){
 
 ¡Ojo! No vale volver a escribir el código que ya escribiste en la guía pasada. ¡No hay que repetir código! Entonces, podés usar Diagonal4Azul() sin definirlo. 
 
+procedure Diagonal4AzulVolviendo(){
+  Diagonal4Azul()
+  repeat(4){
+    Mover(Oeste)
+    Mover(Sur)
+  }
+}
+
+¡Bien!
+
+Tenés que acostumbrarte a pensar... ¿No podría usar algún procedimiento que ya definí antes?
+
+Una gran ventaja de los procedimientos es que, una vez que están escritos, podés guardártelos para volver a usarlos. Cuando ejercitás en Mumuki, nosotros ya los guardamos por vos y te dejamos la Biblioteca lista para usar, pero en la vida real ese trabajo vas a tener que hacerlo vos.  
