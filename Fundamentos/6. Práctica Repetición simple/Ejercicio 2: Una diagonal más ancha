@@ -22,3 +22,18 @@ Ahora, tenés que hacer este dibujo:
 
 El procedimiento debe llamarse BandaDiagonal4. ¡Ojo! prestá atención a la posición final del cabezal.
 
+procedure BandaDiagonal4() {
+  repeat(2) {
+    Diagonal4AzulVolviendo()
+    Mover(Norte)
+  }  
+  Diagonal4AzulVolviendo()
+  MoverSur(2)
+}
+
+procedure MoverSur(n) {
+  repeat(n) {
+    Mover(Sur)
+  }
+}
+
