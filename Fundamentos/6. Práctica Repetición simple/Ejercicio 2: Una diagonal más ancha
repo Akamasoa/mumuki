@@ -1,0 +1,24 @@
+Sigamos probando tus habilidades para reutilizar...
+
+Ahora, tenés que hacer este dibujo:
+
+
+0	1	2	3	4	
+6	
+6
+5	
+5
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	2	3	4	
+
+El procedimiento debe llamarse BandaDiagonal4. ¡Ojo! prestá atención a la posición final del cabezal.
+
