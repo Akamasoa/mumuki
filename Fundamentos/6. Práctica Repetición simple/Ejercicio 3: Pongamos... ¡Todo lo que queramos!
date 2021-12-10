@@ -1,0 +1,27 @@
+Ahora que tenemos una idea de reutilización, y practicamos repetición, vamos a crear un procedimiento que nos va a servir de acá en adelante.
+
+La idea es hacer un procedimiento que nos ayude a poner muchas bolitas. Sí, podríamos simplemente usar un repeat para lograrlo, pero como es una tarea re-común que vamos a hacer un montón de veces, vamos a preferir crear un procedure que se encargue de ello.
+
+Tu tarea es escribir un procedimiento PonerN(cantidad, color) que reciba un número y un color, y ponga la cantidad de bolitas del color dado.
+
+Por ejemplo, PonerN(3, Azul) haría esto:
+
+
+0	1	
+1	
+1
+0	
+0
+0	1	
+
+procedure PonerN(cantidad, color){
+  repeat(cantidad){
+    Poner(color)
+    }
+}
+
+Aunque quizás no veas todavía la utilidad de este procedure que creamos, te contamos dos aspectos que es importante tener en cuenta al programar:
+
+reutilización de código: como poner muchas bolitas es una tarea común, está bueno tener un procedimiento que lo resuelva: lo escribimos una vez y lo usamos para siempre;
+
+declaratividad: cuando tengamos que resolver un problema más complejo, tener este procedimiento nos va a ayudar a pensar a más alto nivel, ya que no vamos a tener que preocuparnos por cómo poner muchas bolitas sino en qué queremos construir con ellas.
