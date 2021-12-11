@@ -12,3 +12,11 @@ Por ejemplo, Fecha(12, 8, 1990) produciría algo así:
 0
 0	1	2	
 
+procedure Fecha(dia, mes, anio){
+  PonerN(dia, Azul)
+  Mover(Este)
+  PonerN(mes, Verde)
+  Mover(Este)
+  PonerN(anio, Negro)
+}
+
