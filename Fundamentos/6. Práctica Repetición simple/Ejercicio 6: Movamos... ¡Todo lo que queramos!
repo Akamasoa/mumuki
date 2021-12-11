@@ -22,3 +22,9 @@ Inicial		Final
 0
 0	1	2	3	
 
+procedure MoverN(cantidad, direccion){
+  repeat(cantidad){
+    Mover(direccion)
+  }
+}
+
