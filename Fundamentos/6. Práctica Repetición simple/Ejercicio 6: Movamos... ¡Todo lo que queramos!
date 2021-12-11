@@ -1,0 +1,24 @@
+Creá un procedimiento MoverN(cantidad, direccion) que haga que el cabezal se desplace la cantidad especificada de veces en la dirección indicada.
+
+Por ejemplo, MoverN(3, Oeste) provocaría:
+
+Inicial		Final
+
+0	1	2	3	
+2	
+2
+1	
+1
+0	
+0
+0	1	2	3	
+
+0	1	2	3	
+2	
+2
+1	
+1
+0	
+0
+0	1	2	3	
+
