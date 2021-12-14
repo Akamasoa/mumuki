@@ -12,3 +12,15 @@ A modo de ejemplo, LineaEstePesada(3, Verde, 5) debería dibujar una línea verd
 
 Tené en cuenta que el cabezal debe regresar a la posición inicial. Para eso vas a tener que invocar MoverN.
 
+procedure LineaEstePesada(peso, color, longitud){
+  repeat(longitud - 1){
+    PonerN(peso, color)
+    Mover(Este)
+  }
+  PonerN(peso, color)
+  MoverN(longitud - 1, Oeste)
+}
+
+¿Viste que se pueden reusar MoverN y PonerN en varios lugares?
+
+¡Son muy útiles!
