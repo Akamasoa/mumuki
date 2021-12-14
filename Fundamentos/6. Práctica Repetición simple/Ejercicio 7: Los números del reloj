@@ -1,0 +1,31 @@
+¡Ya sabés Kung Fu!
+
+Ahora, tenés que mostrarnos que podés dibujar un reloj. Lo que haremos por ahora es solamente poner los números que aparecen en un típico reloj de agujas:
+
+El 12 arriba,
+El 3 a la derecha,
+El 9 a la izquierda, y
+el 6 abajo.
+Hacer un procedimiento DibujarReloj(radio), que ponga los números del reloj como se indica arriba, alrededor del casillero actual. El tamaño del reloj se indica con el radio que recibís por parámetro: mientras más grande es el radio, más alejados están los números del centro.
+
+Dado el siguiente program:
+
+program {
+  DibujarReloj(2)
+}
+El reloj resultante es así:
+
+
+0	1	2	3	4	
+4	
+4
+3	
+3
+2	
+2
+1	
+1
+0	
+0
+0	1	2	3	4	
+
