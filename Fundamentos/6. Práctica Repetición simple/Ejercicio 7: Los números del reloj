@@ -29,3 +29,23 @@ El reloj resultante es así:
 0
 0	1	2	3	4	
 
+procedure DibujarReloj(radio){
+  MoverN(radio, Este)
+  PonerN(3, Rojo)
+  MoverN(radio, Oeste)
+  MoverN(radio, Oeste)
+  PonerN(9, Rojo)
+  MoverN(radio, Este)
+  MoverN(radio, Sur)
+  PonerN(6, Rojo)
+  MoverN(radio, Norte)
+  MoverN(radio, Norte)
+  PonerN(12, Rojo)
+  MoverN(radio, Sur)
+}
+
+¿Te fijaste? Estamos usando bolitas para representar la hora de un reloj. Al programar, usamos las abstracciones que tenemos para modelar cosas del mundo real.
+
+Y como siempre, es muy importante dividir el problema en subtareas. Y si puedo no repetir código, ¡Aún mejor!
+
+Antes de pasar al siguiente ejercicio preguntate: ¿repetí código?
