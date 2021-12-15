@@ -1,0 +1,11 @@
+Bueno, estamos en tiempo para algún ejercicio integrador...
+
+Hacé un procedimiento GuardaDe5(), que haga una "guarda" de 5 azulejos (como las que decoran las paredes). Cada azulejo está conformado por 1 bolita verde, 5 negras y 9 rojas.
+
+0	1	2	3	4	5	
+1	
+1
+0	
+0
+0	1	2	3	4	5	
+
