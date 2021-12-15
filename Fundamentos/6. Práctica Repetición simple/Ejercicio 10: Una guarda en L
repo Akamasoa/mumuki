@@ -1,0 +1,14 @@
+Hacer un procedimiento GuardaEnL(), que haga una guarda en L como muestra la figura, pero dejando el cabezal en la posición inicial.
+
+
+0	1	2	
+2	
+2
+1	
+1
+0	
+0
+0	1	2	
+
+La ventaja ahora, es que te regalamos el procedimiento PonerAzulejo. ¡Pero ojo que necesitás dividir en más subtareas!
+
