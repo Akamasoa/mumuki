@@ -9,3 +9,21 @@ Hacé un procedimiento GuardaDe5(), que haga una "guarda" de 5 azulejos (como la
 0
 0	1	2	3	4	5	
 
+procedure Azulejo(){
+  PonerN(9, Rojo)
+  PonerN(1, Verde)
+  PonerN(5, Negro)
+}
+  
+procedure GuardaDe5(){
+  repeat(4){
+    Azulejo()
+    Mover(Este)
+  }
+  Azulejo()
+}
+
+¡Bien! Recordaste cómo considerar el caso borde.
+
+Además, en este ejercicio hay que dividir en subtareas para evitar la repetición de código. 
+Esto es muy importante a la hora de programar. ¡Asegurate que tu solución no repita código!
