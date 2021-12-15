@@ -12,3 +12,23 @@ Hacer un procedimiento GuardaEnL(), que haga una guarda en L como muestra la fig
 
 La ventaja ahora, es que te regalamos el procedimiento PonerAzulejo. ¡Pero ojo que necesitás dividir en más subtareas!
 
+procedure Linea(cantidad, direccion){
+  repeat(2){
+    MoverN(cantidad, direccion)
+    PonerAzulejo()
+  }
+}
+
+procedure Volver(direccion){
+  repeat(2){
+    Mover(direccion)
+  }
+}
+
+procedure GuardaEnL(){
+  PonerAzulejo()
+  Linea(1, Este)
+  Volver(Oeste)
+  Linea(1, Norte)
+  Volver(Sur)
+}
