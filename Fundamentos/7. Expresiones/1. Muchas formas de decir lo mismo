@@ -8,3 +8,16 @@ Todas las frases anteriores hablan del valor cinco, aunque no lo digan de forma 
 
 Con esta idea e invocando PonerN, creá un programa que ponga cinco bolitas negras, PERO sin escribir el número 5.
 
+program{
+  PonerN(3 + 2, Negro)
+}
+
+Algunas variantes válidas:
+
+program {
+  PonerN(4 + 1, Negro)
+}
+program {
+  PonerN(12 - 7, Negro)
+}
+Y así se nos pueden ocurrir infinitas formas de "decir 5" y sólo una de ellas lo hace de manera literal (o sea, escribiendo 5).
