@@ -26,3 +26,11 @@ ContarGente(1, 2, 3) generaría este tablero:
 0	
 0
 0	1	
+
+procedure ContarGente(micros, autos, bicicletas){
+    PonerN(micros * 40 + autos * 4 + bicicletas, Verde)
+  }
+  
+En Gobstones, como en la matemática, existe la idea de precedencia de operadores. En criollo, esto quiere decir que hay ciertas operaciones que se hacen antes que otras, sin la necesidad de usar paréntesis para ello. En particular, el orden es: primero las multiplicaciones y divisiones, luego las sumas y las restas (de nuevo, como en matemática).
+
+Por lo tanto, la expresión (10 * 4) + (8 * 7) es equivalente a 10 * 4 + 8 * 7.
