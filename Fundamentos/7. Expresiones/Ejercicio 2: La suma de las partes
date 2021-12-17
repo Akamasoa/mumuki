@@ -12,3 +12,6 @@ Ejemplo: PonerSuma(4, 2) debería poner 6 bolitas rojas en la celda actual (porq
 0
 0	1	
 
+procedure PonerSuma(x, y){
+  PonerN(x + y, Rojo)
+}
