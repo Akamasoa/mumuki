@@ -1,0 +1,16 @@
+Ya te presentamos las funciones opuesto, previo y siguiente que nos permiten desplazarnos en forma relativa a alguna dirección . Antes de seguir utilizándolas, vamos a conocerlas un poco mejor.
+
+Si partimos de este tablero inicial:
+
+Tablero de dos por dos con el cabezal en el extremo Noroeste
+
+Y luego ejecutamos Mover(siguiente(Norte)) el tablero obtenido será así:
+
+Tablero de dos por dos con el cabezal en el extremo Noreste
+
+Porque siguiente(Norte) es Este. Si luego ejecutamos Mover(previo(Oeste)) lograremos el siguiente tablero:
+
+Tablero de dos por dos con el cabezal en el extremo Sureste
+
+Porque previo(Oeste) es Sur. ¡Veamos si se entendió! 
+
