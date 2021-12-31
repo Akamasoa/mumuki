@@ -31,3 +31,8 @@ La primera línea es fácil, porque coincide con la dirección que recibimos com
 Rosa de los vientos que muestra que previo de Norte es Oeste y siguiente de Norte es Este
 Descubrí cuál de las funciones nuevas tenés que invocar y definí el procedimiento Ele(direccion). No te preocupes por la posición inicial del cabezal, nosotros nos encargaremos de ubicarlo en el lugar correspondiente para que la L se pueda dibujar.
 
+procedure Ele(direccion){
+ Linea(direccion, Azul, 3) 
+ Linea(siguiente(direccion), Azul, 3)
+}
+
