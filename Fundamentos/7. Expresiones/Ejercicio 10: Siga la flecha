@@ -1,0 +1,25 @@
+Ya vimos distintas funciones que a partir de una dirección nos permiten obtener otra distintas.
+
+Como siempre en programación, lo interesante es combinar nuestras herramientas para lograr nuevos objetivos . Por ejemplo podemos dibujar flechas en una dirección determinada de la siguiente forma:
+
+Flecha(Norte)		Flecha(Oeste)
+
+0	1	2	
+2	
+2
+1	
+1
+0	
+0
+0	1	2	
+
+0	1	2	
+2	
+2
+1	
+1
+0	
+0
+0	1	2	
+Definí el procedimiento Flecha(direccion) que dibuje una flecha roja en la dirección correspondiente. El cabezal empieza y debe quedar siempre en el centro, como se ve en los tableros de ejemplo.
+
