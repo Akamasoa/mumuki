@@ -14,3 +14,23 @@ Tablero de dos por dos con el cabezal en el extremo Sureste
 
 Porque previo(Oeste) es Sur. ¡Veamos si se entendió! 
 
+Si tenemos este tablero inicial:
+
+Tablero de tres por tres con el cabezal en el extremo Noroeste
+
+¿Qué tablero se consigue luego de invocar el siguiente procedimiento?
+
+procedure PonerMisterioso() {
+  Mover(siguiente(Este))
+  Poner(Negro)
+  Mover(opuesto(Oeste))
+  Poner(Negro)
+  Mover(previo(Oeste))
+  Poner(Negro)
+}
+
+Tablero de tres por tres con una bolita en la celda uno dos y dos bolitas en la celda dos dos
+Tablero de tres por tres con dos bolitas en la celda uno dos y una bolita en la celda dos dos
+Tablero de tres por tres con una bolita en la celda uno dos, una bolita en la celda dos dos y una bolita en la celda dos uno
+==> Tablero de tres por tres con una bolita en la celda cero uno, una bolita en la celda uno uno y una bolita en la celda uno cero <==
+Tablero de tres por tres con dos bolitas en la celda cero uno y una bolita en la celda uno uno
