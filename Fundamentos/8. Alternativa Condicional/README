@@ -1,0 +1,5 @@
+Hasta ahora, todos los programas y procedimientos que hicimos fueron sobre tableros conocidos, sabíamos exactamente de qué tamaño era el tablero, dónde estaba el cabezal y cuántas bolitas había en cada celda.
+
+Nos introduciremos ahora en el mundo de lo desconocido, donde la programación cobra aún mucho más sentido. Con la herramienta que veremos podremos resolver problemas nuevos y evitar errores que hasta ahora no podíamos: sacar una bolita Roja sólo si hay alguna, movernos al Norte si eso no provoca que nos caigamos del tablero o agregar una bolita Azul sólo si ya hay una Verde.
+
+¿Y cómo haremos esto? Utilizando la capacidad de la computadora para decidir: la alternativa condicional o sentencia if.
