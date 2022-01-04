@@ -1,0 +1,11 @@
+Vamos a hacer un procedimiento que saque una bolita azul "con miedo": no tiene que producirse un BOOM, aún cuando no haya ninguna bolita en la celda actual.
+
+Con lo que sabés hasta ahora, probablemente tu primera idea sea hacer algo como esto:
+
+procedure SacarAzulConMiedo() {
+  Sacar(Azul)
+}
+
+¿Te diste cuenta qué pasó?
+
+Funcionó para el primer tablero porque tenía una bolita azul, pero hizo BOOM para el segundo porque estaba vacío, claro.
