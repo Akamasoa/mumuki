@@ -6,3 +6,7 @@ Poder sacar muchas bolitas: ya está resuelto con SacarN.
 Contar cuántas bolitas hay que sacar: se puede hacer con nroBolitas.
 Sacar todas las bolitas de un color: hay que combinar las 2 anteriores.
 Definí SacarTodas(color), que recibe un color y saca todas las bolitas que hay de ese color (no debe hacer nada con el resto de los colores).
+
+procedure SacarTodas(color) {
+  SacarN(nroBolitas(color), color)
+}
