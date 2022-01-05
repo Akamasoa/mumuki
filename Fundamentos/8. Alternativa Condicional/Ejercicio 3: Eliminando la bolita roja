@@ -1,0 +1,13 @@
+Analicemos el procedimiento del ejercicio anterior:
+
+procedure SacarAzulConMiedo() {
+  if (hayBolitas(Azul)) {
+    Sacar(Azul)
+  } 
+}
+Como notarás, introdujimos una nueva estructura de control: el if, que en castellano significa si; entendiendo al si como condicional ("si tuviera hambre me comería una empanada") y no como afirmación ("sí, yo rompí el teléfono").
+
+Entonces, lo que le estamos diciendo a la computadora es "si hay bolitas azules, sacá una bolita azul", que dicho así suena un poco tonto ¡y lo es!. Ya te dijimos que la computadora sólo sabe cumplir órdenes.
+
+¡Ahora te toca a vos! Modificá el procedimiento que te dimos para que saque una bolita roja, sólo si hay alguna.
+
