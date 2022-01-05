@@ -1,0 +1,10 @@
+Claro que no.
+
+La condición puede ser cualquier expresión booleana. En criollo: cualquier cosa que represente una "pregunta" que se pueda responder con sí o no. En Gobstones el sí se representa con el valor True (Verdadero en castellano) y el no con el valor False (Falso en castellano).
+
+En los ejercicios anteriores te mostramos una de las expresiones que trae Gobstones, hayBolitas(color), que recibe un color y devuelve True o False.
+
+Otra que trae True o False (y que vas a tener que usar ahora) es puedeMover(direccion). Como podrás imaginarte, sirve para saber si el cabezal puede moverse en una cierta dirección.
+
+Usando puedeMover(direccion) escribí un programa que se mueva al Este sólo si es posible.
+
