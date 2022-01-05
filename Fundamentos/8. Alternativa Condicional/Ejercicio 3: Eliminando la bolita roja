@@ -11,3 +11,8 @@ Entonces, lo que le estamos diciendo a la computadora es "si hay bolitas azules,
 
 ¡Ahora te toca a vos! Modificá el procedimiento que te dimos para que saque una bolita roja, sólo si hay alguna.
 
+procedure SacarRojoConMiedo() {
+  if (hayBolitas(Rojo)) {
+    Sacar(Rojo)
+  } 
+}
