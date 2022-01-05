@@ -8,3 +8,11 @@ Otra que trae True o False (y que vas a tener que usar ahora) es puedeMover(dire
 
 Usando puedeMover(direccion) escribí un programa que se mueva al Este sólo si es posible.
 
+program {
+  if(puedeMover(Este)){
+    Mover(Este)
+  }
+}
+
+¿Y si hubieramos querido movernos hacia el Norte en caso de que no hubiera celdas al Este?
+
