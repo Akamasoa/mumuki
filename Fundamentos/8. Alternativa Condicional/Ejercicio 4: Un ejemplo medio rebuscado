@@ -6,3 +6,10 @@ En primer lugar, tenemos la condición. Por ahora siempre fue hayBolitas(color) 
 
 Para ejercitar esto ultimo, te vamos a pedir que escribas un procedimiento CompletarCelda() que, si ya hay alguna bolita negra, complete la celda poniendo una roja, una azul y una verde.
 
+procedure CompletarCelda(){
+  if(hayBolitas(Negro)){
+    Poner(Rojo)
+    Poner(Verde)
+    Poner(Azul)
+  }
+}
