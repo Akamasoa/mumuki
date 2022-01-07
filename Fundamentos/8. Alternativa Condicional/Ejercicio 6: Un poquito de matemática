@@ -4,3 +4,8 @@ Por suerte, esto se escribe en Gobstones igual que en la matemática tradicional
 
 Sabiendo esto, intentá escribir un programa que ponga 1 bolita negra sólo si hay menos de 5 bolitas negras.
 
+program {
+  if(nroBolitas(Negro) < 5){
+    Poner(Negro)
+  }
+}
