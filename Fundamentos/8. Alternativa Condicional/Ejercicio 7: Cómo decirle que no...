@@ -11,3 +11,10 @@ nroBolitas(Azul) > 3	      	not nroBolitas(Azul) > 3
 
 Escribí un procedimiento AsegurarUnaBolitaVerde() que se asegure que en la celda actual hay al menos una bolita verde. Esto es: si ya hay bolitas verdes no hay que hacer nada, pero si no hay tendría que poner una.
 
+procedure AsegurarUnaBolitaVerde(){
+  if(not hayBolitas(Verde)){
+    Poner(Verde)
+  }
+}
+
+A lo que acabás de hacer, en lógica se lo llama negación y al anteponer el not decimos que se está negando una expresión. Cualquier expresión booleana (o sea, que devuelve True o False) se puede negar.
