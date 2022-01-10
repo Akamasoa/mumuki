@@ -16,3 +16,10 @@ procedure MoverComoSea() {
 }
 Escribí ese código en el editor y fijate cómo resuelve el problema.
 
+procedure MoverComoSea() {
+    if (puedeMover(Oeste)) {
+        Mover(Oeste)
+    } else {
+        Mover(Norte)
+    }
+}
