@@ -2,3 +2,12 @@ Como ejemplo final, imaginemos que nuestro tablero está lleno de luces que est�
 
 Escribí un procedimiento PrenderOApagarLuz() que se encargue de prender las luces que estén apagadas o apagar las luces encendidas, según corresponda.
 
+procedure PrenderOApagarLuz(){
+  if(hayBolitas(Negro)){
+    Sacar(Negro)
+    Poner(Verde)
+  }else{
+    Sacar(Verde)
+    Poner(Negro)
+  }
+}
