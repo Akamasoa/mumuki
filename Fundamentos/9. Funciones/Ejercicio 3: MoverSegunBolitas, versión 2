@@ -2,3 +2,14 @@ Ahora que ya logramos mover la cuenta de las bolitas a una subtarea, podemos mej
 
 Modificá la primera versión de MoverSegunBolitas para que use la función nroBolitasTotal() en vez de la expresión larga.
 
+procedure MoverSegunBolitas() {
+  if (nroBolitasTotal() > 10) {
+    Mover(Este)
+  } else {
+    Mover(Norte)
+  }
+}
+
+Las funciones son una herramienta importantísima, que nos ayuda a escribir programas de mayor calidad.
+
+Sólo mirando el código de esta nueva versión del procedimiento podemos entender de qué va nuestro problema, lo que reduce la distancia entre el problema real y la estrategia que elegimos para resolverlo.
