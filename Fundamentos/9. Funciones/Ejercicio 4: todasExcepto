@@ -4,3 +4,10 @@ Por ejemplo, todasExcepto(Verde) debería contar todas las bolitas azules, negra
 
 Definí la función todasExcepto para que retorne la cantidad de bolitas que no sean del color que se le pasa por parámetro.
 
+function todasExcepto(color){
+  return (nroBolitasTotal() - nroBolitas(color))
+}
+
+Las funciones, como cualquier otra expresión, se pueden usar para definir nuevas funciones.
+
+Y volvemos así a lo más lindo de la programación: la posibilidad de construir nuestras propias herramientas parándonos sobre cosas que hicimos antes, logrando que lo que hacemos sea cada vez más poderoso. 
