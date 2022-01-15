@@ -6,3 +6,9 @@ A diferencia del ejercicio anterior, lo que queremos saber es si alguna de ellas
 
 De nuevo, si sabés algo de lógica, esta operación suele representarse con el símbolo ∨.
 
+function hayAlgunaBolita() {
+  return (hayBolitas(Rojo) || hayBolitas(Verde) || hayBolitas(Azul) || hayBolitas(Negro))
+}
+
+Tanto && como || pueden usarse varias veces sin la necesidad de usar paréntesis, siempre y cuando tengan expresiones booleanas a ambos lados.
+
