@@ -17,3 +17,6 @@ function esUnCasilleroCargadoConRojoDominante() {
 }
 Definí la función esLibreCostados() que indique si el cabezal puede moverse tanto al Este como al Oeste.
 
+function esLibreCostados(){
+  return (puedeMover(Este) && puedeMover(Oeste))
+}
