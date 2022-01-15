@@ -4,3 +4,11 @@ Definí la función hayBolitasAl(direccion, color) que informe si hay alguna bol
 
 Ojo: como ya dijimos, la última línea siempre tiene que tener un return.
 
+function hayBolitasAl(direccion, color){
+  Mover(direccion)
+  return (hayBolitas(color))
+}
+
+¿Viste qué pasó? El cabezal "no se movió" y sin embargo la función devolvió el resultado correcto.
+
+Esto pasa porque en Gobstones las funciones son puras, no tienen efecto real sobre el tablero. En ese sentido decimos que son las compañeras ideales: después de cumplir su tarea dejan todo como lo encontraron.
