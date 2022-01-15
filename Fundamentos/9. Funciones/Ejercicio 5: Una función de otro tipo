@@ -1,0 +1,24 @@
+Como ya sabés, las expresiones no sólo sirven para operar con números. Vamos a definir ahora una función que retorne un valor booleano (True / False).
+
+Lo que queremos averiguar es si el color Rojo es dominante dentro de una celda. Veamos algunos ejemplos.
+
+En este casillero:
+
+
+0	
+0	
+0
+0	
+
+rojoEsDominante() retorna False (hay 2 bolitas rojas contra 8 de otros colores). Pero en este otro:
+
+
+0	
+0	
+0
+0	
+
+rojoEsDominante() retorna True (hay 9 bolitas rojas contra 8 de otros colores)
+
+Definí la función rojoEsDominante() que nos diga si la cantidad de bolitas rojas es mayor que la suma de las bolitas de los otros colores. En la Biblioteca está todasExcepto(color) lista para ser invocada. 
+
