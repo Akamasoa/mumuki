@@ -22,3 +22,10 @@ rojoEsDominante() retorna True (hay 9 bolitas rojas contra 8 de otros colores)
 
 Definí la función rojoEsDominante() que nos diga si la cantidad de bolitas rojas es mayor que la suma de las bolitas de los otros colores. En la Biblioteca está todasExcepto(color) lista para ser invocada. 
 
+function rojoEsDominante(){
+  return(nroBolitas(Rojo) > todasExcepto(Rojo))
+  }
+  
+  Las funciones pueden retornar distintos tipos: un color, una dirección, un número o un booleano.
+
+Básicamente, lo que diferencia a un tipo de otro son las operaciones que se pueden hacer con sus elementos: tiene sentido sumar números, pero no colores ni direcciones; tiene sentido usar Poner con un color, pero no con un booleano. Muchas veces, pensar en el tipo de una función es un primer indicador útil de si lo que estamos haciendo está bien.
