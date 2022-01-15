@@ -1,0 +1,14 @@
+Te recordamos los operadores lógicos que vimos hasta ahora:
+
+Negación: "da vuelta" una expresión booleana - ejemplo: not hayBolitas(Rojo).
+Conjunción: determina si se cumplen ambas condiciones - ejemplo: puedeMover(Norte) && puedeMover(Sur).
+Disyunción: determina si se cumple alguna de las condiciones - ejemplo: esInteligente() || tieneBuenaOnda().
+Con la ayuda de esa tablita, definí la función estoyEnUnBorde() que determine si el cabezal está parado en algún borde.
+
+function estoyEnUnBorde() {
+  return (not puedeMover(Norte) || not puedeMover(Sur) || not puedeMover(Este) || not puedeMover(Oeste))
+}
+
+Como en la aritmética, en la lógica también existe el concepto de precedencia y ciertas operaciones se resuelven antes que otras: primero la negación (not), después la conjunción (&&) y por último la disyunción (||).
+
+Por esta razón, la expresión not puedeMover(Norte) || not puedeMover(Este) || not puedeMover(Sur) || not puedeMover(Oeste) se puede escribir sin tener que poner paréntesis en el medio.
