@@ -4,3 +4,13 @@ Pero, ¿no era que las funciones eran puras y no tenían efecto real? ¿Qué pas
 
 Hagamos la prueba: vamos a probar la función hayBolitasAl del ejercicio anterior con casos donde no pueda moverse el cabezal. Presioná Enviar y mirá el resultado.
 
+function hayBolitasAl(direccion, color) {
+  Mover(direccion)
+  return (hayBolitas(color))
+}
+
+¡BOOM! 
+
+Las funciones también pueden producir BOOM y por lo tanto tenés que tener el mismo cuidado que al programar un procedimiento: que el cabezal no salga del tablero, no intentar sacar bolitas de un color que no hay, etc.
+
+Pensándolo así, podemos decir que las funciones deshacen sus efectos una vez que terminan, pero para poder devolver un resultado necesitan que sus acciones puedan ejecutarse.
