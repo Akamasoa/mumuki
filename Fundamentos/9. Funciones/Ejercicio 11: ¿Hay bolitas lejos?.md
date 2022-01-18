@@ -32,3 +32,12 @@ Para este tablero devolvería True:		Y para este tablero devolvería False:
 0
 0	1	
 Definí la función hayBolitasLejosAl(direccion, color, distancia).
+
+function hayBolitasLejosAl(direccion, color, distancia){
+  MoverN(distancia, direccion)
+  return (hayBolitas(color))
+}
+
+Se puede realizar cualquier tipo de acción antes de retornar un valor, y nada de lo que hagamos tendrá efecto real sobre el tablero.
+
+Interesante esto de las funciones, ¿no?
