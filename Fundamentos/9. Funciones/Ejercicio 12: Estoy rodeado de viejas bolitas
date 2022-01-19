@@ -2,3 +2,11 @@ Valiéndote de hayBolitasAl, definí la función estoyRodeadoDe(color) que indic
 
 Decimos que el cabezal "está rodeado" si hay bolitas de ese color en las cuatro direcciones: Norte, Este, Sur y Oeste.
 
+function estoyRodeadoDe(color){
+  return(hayBolitasAl(Este, color) &&
+  hayBolitasAl(Oeste, color) &&
+  hayBolitasAl(Norte, color) &&
+  hayBolitasAl(Sur, color))
+}
+
+Por si todavía no nos creías: a pesar de que el cabezal se movió cuatro veces por cada prueba, al finalizar la función vemos que siempre quedó en la posición inicial.
