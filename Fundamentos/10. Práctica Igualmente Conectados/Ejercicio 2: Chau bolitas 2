@@ -2,3 +2,10 @@ Lo siguiente que vamos a necesitar representar es cuántas netbooks hay actualme
 
 Similar a lo que hiciste en el ejercicio anterior, definí las funciones colorNetbooks() y cantidadNetbooks().
 
+function colorNetbooks() {
+  return (Negro)
+}
+
+function cantidadNetbooks(){
+  return (nroBolitas(colorNetbooks()))
+}
