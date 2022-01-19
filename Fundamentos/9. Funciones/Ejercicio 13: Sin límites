@@ -4,3 +4,6 @@ El límite puede ser por alguno de dos factores: porque estoy en un borde y ento
 
 Usando estoyEnUnBorde y estoyRodeadoDe, definí hayLimite.
 
+function hayLimite() {
+  return (estoyEnUnBorde() || estoyRodeadoDe(Rojo))
+}
