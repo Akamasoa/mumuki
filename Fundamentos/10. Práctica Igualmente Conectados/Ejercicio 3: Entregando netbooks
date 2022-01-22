@@ -4,3 +4,12 @@ Como todavía no tenemos idea de cuántas va a haber que entregar, tu procedimie
 
 Resumiendo: escribí el procedimiento EntregarNetbooks(cantidad) que se encargue de hacer la entrega, poniendo en la celda actual la cantidad de bolitas negras que haga falta.
 
+procedure EntregarNetbooks(cantidad){
+  PonerN(cantidad, colorNetbooks())
+}
+
+¿Estás pensando que "este procedimiento no sirve para nada, lo único que hace es usar PonerN"? No, no y no, este procedimiento es (quizás) uno de los más importantes que escribiste hasta ahora.
+
+La razón es la misma que te explicamos en la introducción: con este procedimiento estamos plasmando nuestro dominio en el programa, "enterrando" las bolitas y construyendo una capa arriba, con términos propios del problema que queremos resolver (a esto llamamos dominio). Obvio, abajo sigue habiendo bolitas, pero nosotros ya no pensamos tanto en ellas sino en lo que representan.
+
+¡Y así es cómo podremos construir cosas más poderosas! 
