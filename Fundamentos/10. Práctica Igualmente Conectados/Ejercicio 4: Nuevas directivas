@@ -4,3 +4,10 @@ si se solicitaron menos de 5 máquinas, entregar todas las solicitadas;
 en otro caso, entregar sólo 5.
 Tu tarea es escribir este procedimiento, que llamaremos EntregarLoQueAlcance y recibirá por parámetro la cantidad de netbooks que habría que entregar.
 
+procedure EntregarLoQueAlcance (n){
+  if (n < 5){
+    EntregarNetbooks(n)
+  }else{
+    EntregarNetbooks(5)
+  }
+}
