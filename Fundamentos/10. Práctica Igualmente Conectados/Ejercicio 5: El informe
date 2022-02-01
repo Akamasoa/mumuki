@@ -23,3 +23,18 @@ Pueden darse tres situaciones:
 Definí las funciones colorSobrantes() y colorFaltantes() para encapsular el color de las marcas.
 Escribí el procedimiento ReportarSituacion que, asumiendo que el facilitador está en una escuela, informe la situación correspondiente según lo explicado anteriormente. ¡Utilizá las funciones que creaste!
 
+function colorSobrantes() {
+  return (Verde) 
+}
+
+function colorFaltantes() {
+  return (Rojo)
+}
+
+procedure ReportarSituacion (){
+  if (cantidadNetbooks() > cantidadEstudiantes()){
+     PonerN(cantidadNetbooks() - cantidadEstudiantes(), colorSobrantes())
+}else{
+    PonerN(cantidadEstudiantes() - cantidadNetbooks(), colorFaltantes())
+  }
+}
