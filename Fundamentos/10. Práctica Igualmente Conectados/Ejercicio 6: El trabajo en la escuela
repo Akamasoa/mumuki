@@ -2,3 +2,7 @@ Con todo lo que construimos, ya estamos en condiciones de escribir un procedimie
 
 Codificá el procedimiento HacerTrabajoEnEscuela que haga lo necesario.
 
+procedure HacerTrabajoEnEscuela() {
+EntregarLoQueAlcance(cantidadEstudiantes() - cantidadNetbooks())
+ReportarSituacion()
+}
