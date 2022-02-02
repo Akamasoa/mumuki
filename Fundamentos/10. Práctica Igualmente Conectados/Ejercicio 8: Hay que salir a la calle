@@ -10,3 +10,16 @@ Así es cómo se vería una calle de longitud 6, con una escuela pública de 25 
 
 Escribí LaburarEnCalle(largo), que haga el trabajo que corresponda en una calle de la longitud recibida por parámetro. El cabezal siempre va a empezar al principio de la calle y debe terminar ahí.
 
+procedure LaburarEnCalle(largo){
+  repeat (largo) {
+Mover(Este)
+if (hayEscuelaPublica()) { HacerTrabajoEnEscuela() }
+}
+MoverN(largo, Oeste)
+}
+
+A esto que acabás de hacer lo llamamos recorrido y consta básicamente de tres cosas:
+
+un mecanismo para repetir, que indica cuántas veces habrá que iterar;
+una acción que haremos en cada paso, en este caso ver si hay una escuela pública y hacer el trabajo;
+una acción que nos hace avanzar al siguiente paso, en este caso el Mover.
