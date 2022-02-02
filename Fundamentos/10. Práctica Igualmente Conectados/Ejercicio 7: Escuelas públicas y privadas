@@ -7,3 +7,5 @@ A partir de esta información, escribí la función hayEscuelaPublica() que dete
 function hayEscuelaPublica(){
 return(hayBolitas(colorEstudiantes()))
 }
+
+¡Nos vamos acercando al objetivo! De nuevo, fijate qué importante es dividir el problema en tareas pequeñas...
