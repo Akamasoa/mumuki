@@ -4,3 +4,6 @@ Como ya vimos, en las celdas con escuelas públicas habrá bolitas azules repres
 
 A partir de esta información, escribí la función hayEscuelaPublica() que determine si en la celda actual hay una escuela pública.
 
+function hayEscuelaPublica(){
+return(hayBolitas(colorEstudiantes()))
+}
