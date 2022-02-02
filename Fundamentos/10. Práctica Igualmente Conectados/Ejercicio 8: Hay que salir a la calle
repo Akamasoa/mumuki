@@ -1,0 +1,12 @@
+Ya estamos en condiciones de que nuestras facilitadoras y facilitadores salgan a la calle. Todas las calles de nuestra ciudad se extienden hacia el Este, tienen distintas longitudes y pueden tener a lo sumo una escuela por manzana (celda).
+
+Así es cómo se vería una calle de longitud 6, con una escuela pública de 25 estudiantes y una privada:
+
+
+0	1	2	3	4	5	
+0	
+0
+0	1	2	3	4	5	
+
+Escribí LaburarEnCalle(largo), que haga el trabajo que corresponda en una calle de la longitud recibida por parámetro. El cabezal siempre va a empezar al principio de la calle y debe terminar ahí.
+
