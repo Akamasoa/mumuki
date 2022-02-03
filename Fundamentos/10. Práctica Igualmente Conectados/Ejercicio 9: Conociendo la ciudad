@@ -24,3 +24,10 @@ las bolitas rojas del origen indican cuántas calles tiene nuestra ciudad;
 las bolitas verdes de cada fila indican qué tan larga es la calle.
 Tu trabajo es escribir el procedimiento RecorrerCiudad(), que realice un recorrido por todas las calles de la ciudad, haciendo el trabajo necesario.
 
+procedure RecorrerCiudad(){
+  repeat(nroBolitas(Rojo)){
+    Mover(Norte){
+        LaburarEnCalle(nroBolitas(Verde))
+      }
+    }
+  }
