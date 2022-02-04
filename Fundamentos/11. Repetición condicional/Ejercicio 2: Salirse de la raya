@@ -4,3 +4,8 @@ A diferencia del repeat, esta herramienta controla la repetición mediante una p
 
 Para ejercitar esto, te toca escribir un procedimiento SalirDeLineaVerde(direccion) que, asumiendo que el cabezal está sobre una línea verde, se mueva en la dirección especificada hasta quedar afuera de la misma.
 
+procedure SalirDeLineaVerde(direccion){
+  while(hayBolitas(Verde)){
+    Mover(direccion)
+  }
+}
