@@ -1,0 +1,24 @@
+La forma de repetir comandos que conocemos hasta ahora es poderosa, pero tiene un gran problema: tenemos que saber de antemano cuántas veces queremos repetir nuestros comandos.
+
+¿Qué pasa si, por ejemplo, queremos poner una bolita en cada una de las celdas? Para este caso y para muchos más, averiguar cuántas veces vamos a tener que realizar la acción es imposible. Conclusión: el repeat no nos sirve, no para esto.
+
+Ahora, ¿qué pasaría si tuvieramos otra herramienta para repetir que, en vez de funcionar con un número, funcionara con una pregunta? 
+
+Ejercicios 
+ 1. Ir al extremo
+ 2. Salirse de la raya
+ 3. Hasta el infinito... y no mucho más allá
+ 4. Un bucle no tan obvio
+ 5. La alfombra roja
+ 6. Fin de fiesta
+ 7. Alex, el viajero
+ 8. Cuando hay hambre...
+ 9. Primer obstáculo: la montaña
+ 10. Segundo obstáculo: la maleza
+ 11. Campo de plantas
+ 12. El túnel
+En esta lección diste tus primeros pasos en la herramienta más poderosa que tiene la programación imperativa, la repetición condicional o sentencia while. Esta nueva forma de repetición es controlada por una expresión booleana que se evalua antes de cada iteración para saber si debe continuar repitiendo.
+
+Como vimos, esto último te puede llevar a construir programas que no terminan y no hay recetas para evitar que esto pase: es tu trabajo detenerte a pensarlo. 
+
+Como dijo el tío Ben, un gran poder conlleva una gran responsabilidad: ¡mucho cuidado cuando uses un while!
