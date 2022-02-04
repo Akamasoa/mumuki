@@ -7,3 +7,14 @@ procedure HastaElInfinito() {
 }
 ¿Cuándo terminará ese procedimiento? Averigualo: escribí el código en el editor y fijate qué hace.
 
+procedure HastaElInfinito() {
+  while (puedeMover(Este)) {
+    Poner(Rojo)
+  }
+}
+
+Ups... el procedimiento no termina nunca. 
+
+En este ejemplo, ninguna de las acciones que están dentro de la repetición contribuyen a que esta termine: debería haber algún comando que provoque que el cabezal se mueva hacia el Este, logrando que puedeMover(Este) en algún momento sea falso.
+
+¡Siempre tenés que asegurarte de que cada paso de la repetición se acerca hacia el final!
