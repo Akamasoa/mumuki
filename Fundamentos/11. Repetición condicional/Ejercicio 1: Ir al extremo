@@ -18,3 +18,8 @@ procedure IrAlExtremo(direccion) {
 }
 Escribí nuestra versión de IrAlExtremo en el editor y enviala.
 
+procedure IrAlExtremo(direccion) {
+  while (puedeMover(direccion)) {
+    Mover(direccion)
+  }
+}
