@@ -6,3 +6,11 @@ Supongamos que el tablero representa el hall de un hotel y el cabezal es un trab
 
 Escribí el procedimiento DesplegarAlfombraHacia(direccion) que realice lo pedido.
 
+procedure DesplegarAlfombraHacia(direccion){
+  while(puedeMover(direccion)){
+    Mover(direccion)
+    Poner(Rojo)
+  }
+}
+
+Los problemas para los cuales el while es útil siempre van a tener la misma pinta: necesitamos hacer algo una cantidad de veces que no conocemos (que incluso podría ser ninguna), pero sí sabemos cuándo hay que dejar de hacerlo y podemos escribir eso último como una expresión booleana.
