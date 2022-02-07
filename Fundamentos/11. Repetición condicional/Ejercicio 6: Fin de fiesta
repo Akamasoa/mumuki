@@ -6,3 +6,23 @@ Escribí LimpiarYSacarAlfombra(), que se encargue de barrer la basura y levantar
 
 Usando LimpiarYSacarAlfombra() implementá LevantarAlfombraHacia(direccion), que saque tanto la alfombra como los residuos, en la dirección dada.
 
+procedure LimpiarYSacarAlfombra(){
+  while(hayBolitas(Verde)||hayBolitas(Azul)||hayBolitas(Negro)||hayBolitas(Rojo)){
+    SacarTodas(Verde)
+    SacarTodas(Azul)
+    SacarTodas(Negro)
+    SacarTodas(Rojo)
+  }
+}
+
+procedure LevantarAlfombraHacia(direccion){
+  LimpiarYSacarAlfombra()
+  while(puedeMover(direccion)){
+  Mover(direccion)
+  LimpiarYSacarAlfombra()
+    }
+}
+
+¡Nunca, pero nunca, te olvides de dividir en subtareas!  
+
+A medida que avanzamos y los problemas se vuelven más complejos, esta habilidad es cada vez más importante. Si no la desarrollás constantemente, tu capacidad para resolver problemas encontrará su techo muy rápidamente. 
