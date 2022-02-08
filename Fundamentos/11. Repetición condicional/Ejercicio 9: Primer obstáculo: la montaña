@@ -16,3 +16,9 @@ Vamos a hacer un procedimiento que le sirva al viajero para escalar cualquier mo
 
 Implementá el procedimiento TreparHastaDescanso(), que deje a nuestro amigo en el primer descanso que haya en la montaña.
 
+procedure TreparHastaDescanso(){
+  while(hayParedAl(Este)){
+    Mover(Norte)
+  }
+  Mover(Este)
+}
