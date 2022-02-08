@@ -6,3 +6,8 @@ Nosotros creamos por vos la función hayPlantaComestible(), que indica si eso se
 
 Definí el procedimiento BuscarComida(direccion), que deje a Alex (el cabezal) en la primera celda en la dirección dada que tenga una planta comestible.
 
+procedure BuscarComida(direccion){
+  while(not hayPlantaComestible()){
+    Mover(direccion)
+  }
+}
