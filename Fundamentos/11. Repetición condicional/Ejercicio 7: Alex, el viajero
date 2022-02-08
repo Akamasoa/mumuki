@@ -10,3 +10,7 @@ A Alex lo vamos a representar simplemente con el cabezal.
 
 En este ejercicio, te toca crear la función hayParedAl(direccion) que indica si existe una pared en la dirección dada. Nosotros te damos ya la función hayPared() para que la utilices en la que tenés que definir.
 
+function hayParedAl(direccion){
+  Mover(direccion)
+  return(hayPared())
+}
