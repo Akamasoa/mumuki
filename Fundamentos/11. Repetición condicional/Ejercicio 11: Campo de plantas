@@ -7,3 +7,16 @@ en cada parcela (celda), recolecte la planta comestible si es que hay alguna;
 deje en su lugar las plantas no comestibles.
 Te facilitamos la función hayPlantaComestible() y el procedimiento RecolectarPlanta() para que los uses.
 
+procedure RecolectarPlantasEnFila(){
+  if(hayPlantaComestible()){
+    RecolectarPlanta()
+  }
+  while(puedeMover(Este)){
+    Mover(Este)
+    if(hayPlantaComestible()){
+    RecolectarPlanta()
+  }
+  }
+}
+
+Como dedujiste, acá también hay que considerar el caso borde, y en este caso eso significa si hay una planta comestible, recolectala. Cuidado con esto último: hay veces que ese "hacerlo una vez más" implica repetir más de un comando.
