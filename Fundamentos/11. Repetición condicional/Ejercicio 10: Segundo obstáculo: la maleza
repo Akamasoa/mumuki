@@ -4,3 +4,14 @@ Tu tarea será ahora instruir a Alex para que se abra paso a lo largo del tabler
 
 Escribí DesmalezarHacia(direccion) que abre paso en la dirección indicada, quitando la maleza. Una cosa importante: hay maleza en todas las celdas del tablero, pero sólo tenés que quitar las que interrumpen tu camino.
 
+procedure DesmalezarHacia(direccion){
+  UsarHoz()
+  while(puedeMover(direccion)){
+    Mover(direccion)
+    UsarHoz()
+    }
+}
+
+Nuevamente nos encontramos con el famoso caso borde, que ya habíamos experimentado en la repetición simple (o repeat para los amigos).
+
+Es muy importante que siempre que escribas algo que use un while te preguntes cómo se comporta en el primero y el último caso que tenés que procesar, en este caso la última celda de la fila o columna.
