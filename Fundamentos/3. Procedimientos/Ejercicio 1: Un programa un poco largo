@@ -20,7 +20,16 @@ program {
   Poner(Negro)
 }
 
-stó un poco, ¿no?
+¿Qué crees que hace?
+
+Llena cualquier tablero de bolitas negras.
+Dibuja una línea de bolitas negras.
+Dibuja una cruz de bolitas negras.
+Dibuja un cuadrado de bolitas negras.
+Pone 9 bolitas negras en una celda.
+Cuando tengas tu respuesta pasá al siguiente ejercicio para ver si estás en lo correcto.
+
+Costó un poco, ¿no?
 
 Bueno, eso es normal porque los humanos no somos máquinas y nos cuesta ejecutar un programa en nuestra cabeza. ¡Por suerte existen las computadoras, que se encargan de resolver eso por nosotros !
 
