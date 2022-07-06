@@ -22,3 +22,15 @@ En otras palabras (¡preparate!, esto te puede volar la cabeza ) extraer devuelv
 ¿Te animás a completar la solución que está en el editor?
 */
 
+function extraer(saldo, monto) {
+  return Math.max(saldo - monto, 0);
+}
+
+/*
+¡Muy bien! Tu solución pasó todas las pruebas
+¡Bien hecho! Ahora andá y probalo en la consola
+
+Como ves, la función Math.max nos sirvió para implementar un tope inferior. De forma análoga, la función Math.min nos puede servir para implementar un tope superior.
+
+Ah, y si estás pensando “en Gobstones podría haber hecho esto con un if”, ¡tenés razón!. Pero esta solución es mucho más breve y simple .
+*/
