@@ -36,3 +36,19 @@ triple: devuelve el triple de un número
 anteriorDelTriple, que combina las dos funciones anteriores: multiplica a un número por 3 y le resta 1
 */
 
+function anterior(num){
+  return num - 1;
+}
+
+function triple(num) {
+  return num * 3;
+}
+
+function anteriorDelTriple(num){
+  return anterior(triple(num));
+}
+
+/*
+¡Muy bien! Tu solución pasó todas las pruebas
+Quizás ahora estés pensando: si no tengo un tablero, ¿cómo sé si mi función hace lo que debe? Acompañanos...
+*/
