@@ -21,3 +21,13 @@ false
 true
 //Definí y probá en la consola la función leGustaLeer.
 
+function leGustaLeer(num){
+  return num > 20;
+}
+
+/*
+¡Muy bien! Tu solución pasó todas las pruebas
+¡Bien hecho!
+
+Capaz pasó desapercibido, pero leGustaLeer devuelve true o false, es decir, es una función que devuelve booleanos. Eso significa que en JavaScript, no sólo hay números sino que también..... hay booleanos .
+*/
