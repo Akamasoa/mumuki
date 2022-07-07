@@ -20,4 +20,17 @@ false
 > estaFueraDeRango(17, 1, 10)
 true
 
+function estaEntre(a, b, c){
+  return a > b && a < c;
+}
 
+function estaFueraDeRango(a, b, c){
+  return a < b || a > c;
+}
+
+/*
+¡Muy bien! Tu solución pasó todas las pruebas
+¡Bien hecho!
+
+Ya fueron suficientes booleanos y cuentas por ahora, ¿no? Exploremos algo más interesante: los strings.
+*/
