@@ -24,3 +24,8 @@ true
 > esFinDeSemana("martes")
 false
 
+function esFinDeSemana(dia){
+  return dia === "sábado" || dia ==="domingo";
+}
+
+//¡Muy bien! Tu solución pasó todas las pruebas
