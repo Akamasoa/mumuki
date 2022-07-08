@@ -24,3 +24,8 @@ false
 > longitudNombreCompleto("Cosme", "Fulanito")
 14
 
+function longitudNombreCompleto(nombre, apellido){
+  return longitud(nombre + ' ' + apellido);
+}
+
+//¡Muy bien! Tu solución pasó todas las pruebas
