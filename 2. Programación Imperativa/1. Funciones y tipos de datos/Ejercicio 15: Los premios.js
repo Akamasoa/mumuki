@@ -15,3 +15,16 @@ Ejemplo:
 
 //Definí, y probá en la consola, la función medallaSegunPuesto
 
+function medallaSegunPuesto (puesto){
+  if(puesto === 1){
+    return "oro";
+  }else if(puesto === 2){
+    return "plata";
+  } else if(puesto === 3){
+    return "bronce";
+  } else{
+    return "nada";
+  }
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
