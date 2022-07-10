@@ -28,3 +28,13 @@ no es el 15.
 Definí la función esNumeroDeLaSuerte que dado un número diga si cumple la lógica anterior. ¡No vale usar if!
 */
 
+function esNumeroDeLaSuerte(num) {
+  return num > 0 && num < 100 && num !== 15;
+}
+
+/*
+¡Muy bien! Tu solución pasó todas las pruebas
+En general, como regla práctica, si tenés ifs que devuelven trues o falses, probablemente lo estás haciendo mal . Y si bien funcionará, habrás escrito código innecesariamente complejo y/o extenso.
+
+Recordá: ¡menos código, más felicidad!
+*/
