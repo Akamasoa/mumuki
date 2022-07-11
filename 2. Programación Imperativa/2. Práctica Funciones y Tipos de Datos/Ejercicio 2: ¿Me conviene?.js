@@ -14,3 +14,8 @@ true // cumple las tres condiciones
 
 //En la Biblioteca ya está definida la función cuantoCuesta lista para ser invocada.
 
+function meConviene (pulgadas, memoria){
+  return cuantoCuesta(pulgadas, memoria) < 6000 && pulgadas >= 32 && memoria >= 8;
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
