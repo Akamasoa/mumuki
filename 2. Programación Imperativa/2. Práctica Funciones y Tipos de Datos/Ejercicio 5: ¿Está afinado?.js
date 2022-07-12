@@ -8,3 +8,8 @@ Definí una función estaAfinado, que reciba la frecuencia (un número) del la c
 > estaAfinado(440)
 true
 
+function estaAfinado (frecuencia){
+  return frecuencia === 440;
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
