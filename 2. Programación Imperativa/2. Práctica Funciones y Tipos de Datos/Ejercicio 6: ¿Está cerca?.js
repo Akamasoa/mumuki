@@ -12,3 +12,8 @@ false //está fuera del rango
 
 //Definí la función estaCerca
 
+function estaCerca (frecuencia){
+  return frecuencia >= 437 && frecuencia <= 443 && frecuencia !== 440;
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
