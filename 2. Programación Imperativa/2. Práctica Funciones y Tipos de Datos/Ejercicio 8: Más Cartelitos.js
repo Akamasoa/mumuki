@@ -16,3 +16,13 @@ Modificá la función escribirCartelito, de forma que se comporte como se descri
 > escribirCartelito("Ing.", "Dana", "Velázquez", false)
 "Ing. Dana Velázquez"
 
+//modificá esta función
+function escribirCartelito (titulo, nombre, apellido, bool) {
+  if (!bool){
+    return titulo + " " + nombre + " " + apellido;
+  } else {
+    return titulo + " " + apellido;
+  }
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
