@@ -9,3 +9,12 @@ Definí una función decisionConMoneda, que toma tres parámetros y retorna el s
 > decisionConMoneda("cara", "pizzas", "empanadas")
 "pizzas"
 
+function decisionConMoneda (moneda, lado1, lado2){
+  if(moneda === "cara"){
+    return lado1;
+  } else {
+    return lado2;
+  }
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
