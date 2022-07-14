@@ -7,3 +7,8 @@
 > escribirCartelito("Dra.", "Ana", "Pérez")
 "Dra. Ana Pérez"
 
+function escribirCartelito (titulo, nombre, apellido) {
+  return titulo + " " + nombre + " " + apellido;
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
