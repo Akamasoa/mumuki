@@ -13,3 +13,12 @@ Definí una función valorEnvido, que tome un número de carta y retorne su valo
 > valorEnvido(3)
 3
 
+function valorEnvido (carta){
+  if (carta >= 1 && carta <= 7){
+    return carta;
+  } else {
+    return 0;
+  }
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
