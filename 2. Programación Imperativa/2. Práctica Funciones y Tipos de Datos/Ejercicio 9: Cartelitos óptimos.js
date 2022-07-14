@@ -13,3 +13,8 @@ Definí la función escribirCartelitoOptimo que tome un título, un nombre y un 
 
 //Te dejamos en la biblioteca la función escribirCartelito definida. ¡Usala cuando necesites!
 
+function escribirCartelitoOptimo (titulo, nombre, apellido){
+  return escribirCartelito (titulo, nombre, apellido, longitud(nombre + apellido) > 15)
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
