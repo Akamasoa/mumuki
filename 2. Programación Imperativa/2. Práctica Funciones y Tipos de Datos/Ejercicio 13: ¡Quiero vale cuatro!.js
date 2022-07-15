@@ -13,3 +13,14 @@ Definí la función valorCantoTruco, que tome el canto y retorne cuántos puntos
 
 //Asumí que sólo te van a pasar como argumento un string que represente un canto de truco. Por ejemplo, no vamos a probar la función para el caso valorCantoTruco("zaraza")
 
+function valorCantoTruco(canto){
+  if (canto === "truco"){
+    return 2;
+  } else if(canto === "retruco"){
+    return 3;
+  } else {
+    return 4;
+  }
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
