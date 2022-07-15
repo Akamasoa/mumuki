@@ -11,3 +11,12 @@ Utilizando la función valorEnvido (que ya definimos por vos), definí la funci�
 > puntosDeEnvidoTotales(2, "copas", 3, "bastos")
 3
 
+function puntosDeEnvidoTotales(carta1, palo1, carta2, palo2){
+  if(palo1 === palo2){
+    return valorEnvido(carta1) + valorEnvido(carta2) + 20;
+  } else { 
+    return Math.max(valorEnvido(carta1), valorEnvido(carta2))
+  }
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
