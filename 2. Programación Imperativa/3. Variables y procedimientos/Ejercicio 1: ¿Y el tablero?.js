@@ -12,3 +12,9 @@ Ahora contamos con la consola: una herramienta poderosa que nos permite hacer pr
 ¡Vas a ver que podés averiguarlo sin tener un tablero!
 */
 
+> funcionMisteriosa(4, 5)
+=> "woooowwwww!"
+> funcionMisteriosa(6, 8)
+=> "woooooowwwwwwww!"
+>  
+  
