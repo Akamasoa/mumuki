@@ -15,3 +15,21 @@ Una pena extraordinaria
 Esta function debe retornar 0
 */
 
+function versosMartinFierro(){
+  imprimir("Aquí me pongo a cantar")
+  imprimir("Al compás de la vigüela;")
+  imprimir("Que el hombre que lo desvela")
+  imprimir("Una pena extraordinaria")
+  return 0;
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
+/*
+¡Bien hecho!
+
+Sin embargo, ¿tiene sentido que versosMartinFierro devuelva 0? ¿Usamos para algo este resultado?
+
+Acá parecería que llamamos a esta function porque nos interesa su efecto de imprimir líneas; nos da igual lo que retorna. Quizás más que una función, necesitamos definir un procedimiento. ¿Se podrá hacer esto en JavaScript?
+
+La respuesta, ¡en el siguiente ejercicio!
+*/
