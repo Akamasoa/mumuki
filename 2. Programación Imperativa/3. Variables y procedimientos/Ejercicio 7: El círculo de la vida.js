@@ -4,3 +4,14 @@
 
 //Definí las funciones perimetroCirculo y areaCirculo que reciben el radio de un círculo y a partir del mismo nos retornan su perímetro y su área.
 
+function perimetroCirculo(radio){
+  return 3.14159265358979 * radio * 2;
+}
+
+function areaCirculo(radio){
+  return 3.14159265358979 * radio * radio;
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
+//Excelente, la precisión de nuestros cálculos es innegable , pero tuvimos que escribir un número larguísimo. Pensemos que pi aparece en un montón de fórmulas matemáticas. 
+//¿Es necesario escribir este número cada vez?¿No podemos hacer algo más cómodo?
