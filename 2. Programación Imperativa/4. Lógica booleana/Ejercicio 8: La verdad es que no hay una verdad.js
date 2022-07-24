@@ -16,3 +16,19 @@ Probá tu función tieneContraste con los siguientes valores y comprobá si se c
  tieneContraste("azul", "violeta")
  tieneContraste("blanco", "negro")
 
+tieneContraste("amarillo", "beige")
+false
+  tieneContraste("azul", "violeta")
+false
+  tieneContraste("blanco", "negro")
+true
+   
+   tieneContraste("amarillo", "beige")
+false
+  tieneContraste("azul", "violeta")
+false
+  tieneContraste("blanco", "negro")
+true
+   
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
