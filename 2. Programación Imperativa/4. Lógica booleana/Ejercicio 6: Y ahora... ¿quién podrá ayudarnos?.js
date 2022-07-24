@@ -24,3 +24,12 @@ true //Porque no está dentro del horario bancario
  estaCerrado(false, "jueves", 11)
 false
 
+function esFinDeSemana(dia){
+  return dia === "sabado" || dia === "domingo";
+}
+
+function estaCerrado(esFeriado, dia, horario) {
+  return esFeriado || esFinDeSemana(dia) || !dentroDeHorarioBancario(horario);
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
