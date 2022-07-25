@@ -18,8 +18,8 @@ true
 > esPeripatetico("profesor", "uruguayo", 1)
 false 
 
-function esPeripatetico (prof,nacio,km){
-  return prof === "filósofo" && nacio === "griego" &&km > 2;
+function esPeripatetico (profesion, nacionalidad, km){
+  return profesion === "filósofo" && nacionalidad === "griego" && km > 2;
 }
 
 // ¡Muy bien! Tu solución pasó todas las pruebas
