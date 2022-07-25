@@ -18,3 +18,8 @@ function gano(cumplioObjetivoSecreto, cantidadDePaisesConquistados) {
 
 //¿Te animás a construir la tabla de verdad de la disyunción lógica?
 
+A	 B	A || B
+V	 V	  V
+V	 F	  V
+F  V	  V
+F	 F	  F
