@@ -10,3 +10,9 @@ Definí la función de 3 parámetros puedeSubirse que recibe una altura de una p
 false // no puede subirse
       // porque aunque tiene mas de 1.5m, 
       // tiene una afección cardíaca
+
+let alturaminimasola = 1.5;
+let alturaminimaacomp = 1.2;
+function puedeSubirse(altura, boolean1, boolean2){
+  return ((altura <= alturaminimasola && altura >= alturaminimaacomp) && boolean1 && !boolean2) || (altura >= alturaminimasola && !boolean1 && !boolean2);
+}
