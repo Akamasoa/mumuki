@@ -19,3 +19,6 @@ false
 
 //¡Intentá resolverlo en una única función! Después vamos a ver cómo quedaría si delegamos.
 
+function sePuedeConcentrar (bebida, temp, boolean){
+  return (bebida === "té" && temp >= 95 && boolean) || (bebida === "mate" && temp === 80 && boolean);
+}
