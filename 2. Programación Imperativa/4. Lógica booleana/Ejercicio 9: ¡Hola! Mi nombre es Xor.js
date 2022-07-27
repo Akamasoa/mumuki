@@ -12,8 +12,8 @@ A diferencia del and, or y not, el xor no suele estar definido en los lenguajes.
 Veamos si se entiende: definí la función genérica xor, que tome dos booleanos y retorne el valor de verdad correspondiente.
 */
 
-function xor (boolean1,boolean2){
-  return boolean1===!boolean2;
+function xor(A, B){
+  return A === !B;
 }
 
 // ¡Muy bien! Tu solución pasó todas las pruebas
