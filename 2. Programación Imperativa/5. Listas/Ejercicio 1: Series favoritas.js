@@ -12,3 +12,11 @@ seriesFavoritasDeHector
 ["hola","mundo!"]
 ["hola","hola"]
 
+> seriesFavoritasDeAna
+=> ["Game of Thrones","Breaking Bad","House of Cards"]
+> seriesFavoritasDeHector
+=> ["En Terapia","Recordando el Show de Alejandro Molina"]
+> ["hola","mundo!"]
+=> ["hola","mundo!"]
+> ["hola","hola"]
+=> ["hola","hola"]
