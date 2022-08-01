@@ -11,8 +11,16 @@ false // no puede subirse
       // porque aunque tiene mas de 1.5m, 
       // tiene una afección cardíaca
 
-let alturaminimasola = 1.5;
-let alturaminimaacomp = 1.2;
-function puedeSubirse(altura, boolean1, boolean2){
-  return ((altura <= alturaminimasola && altura >= alturaminimaacomp) && boolean1 && !boolean2) || (altura >= alturaminimasola && !boolean1 && !boolean2);
+function puedeSubirse(altura, acompañada, afección){
+  return (altura >= 1.5 || altura >= 1.2 && acompañada) && !afección;
 }
+
+/*
+¡Terminaste Lógica booleana!
+
+¡Felicitaciones!
+
+En esta guía aprendiste tres tipos de operadores lógicos: conjunción &&, que es verdadero si todas sus proposiciones son verdaderas; disyunción ||, que es verdadero si alguna de sus proposiciones es verdadera; y xor, que es verdadero si sólo una de sus proposiciones es verdadera.
+
+Además, aprendiste acerca de la precedencia de estos operadores, y cómo los paréntesis pueden ayudarnos a alterar esa precedencia según nuestras necesidades.
+*/
