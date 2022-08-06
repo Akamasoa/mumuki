@@ -13,3 +13,7 @@ unaLista //debería ser [1, 3]
 otraLista //debería ser [4, 5, 2]
 
 
+function trasladar (unaLista,otraLista, elemento){
+  remover(unaLista,elemento);
+  agregar(otraLista,elemento)
+}
