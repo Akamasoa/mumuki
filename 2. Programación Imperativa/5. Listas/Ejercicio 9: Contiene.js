@@ -11,3 +11,6 @@ false
  contiene([8, 5], 7)
 false
 
+function contiene(unaLista,elemento){
+  return posicion(unaLista,elemento)>=0;
+}
