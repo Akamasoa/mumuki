@@ -19,3 +19,13 @@ Te recordamos qué hace la función: tiene que devolver la medalla que le corres
  medallaSegunPuesto(5)
 "nada"
 
+let unaLista = ["oro","plata","bronce"];
+
+function medallaSegunPuesto(puesto){
+  
+  if (puesto<=(longitud(unaLista)) && puesto>=1) {
+     return unaLista[puesto-1];
+  } else {
+   return "nada";
+  }
+}
