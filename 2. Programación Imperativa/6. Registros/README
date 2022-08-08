@@ -1,0 +1,18 @@
+Muchas veces, cuando representamos cosas de la vida real en nuestros programas, necesitamos poder agrupar múltiples características de esas cosas de alguna forma.
+
+Te presentamos una estructura que nos va a ayudar en esa tarea: los registros.
+
+Ejercicios 
+ 1. Los primeros registros
+ 2. Tu propio monumento
+ 3. Accediendo al campo
+ 4. Temperatura de planeta
+ 5. Moviendo archivos
+ 6. Registros de dos milenios
+ 7. Postres complejos
+ 8. Listas de registros
+ 9. 60 dulces minutos
+ 10. Hay un registro en mi registro
+ 11. ¡Azúcar!
+ 
+Durante la lección aprendiste cuál es la utilidad de esta estructura de datos llamada registro, cómo acceder a sus campos y modificarlos, y hasta viste que pueden anidarse (es decir, que haya un registro dentro de otro). ¡Felicitaciones!
