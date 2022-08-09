@@ -5,3 +5,8 @@
 > esDelMilenioPasado({ ruta: "D:\fotonacimiento.jpg", creacion: "14/09/1989" })
 true
 
+function esDelMilenioPasado(archivo){
+  return anio(archivo.creacion) < "2000";
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
