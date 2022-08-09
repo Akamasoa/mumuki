@@ -9,3 +9,8 @@
 > temperaturaDePlaneta(venus)
 "Venus tiene una temperatura promedio de 462 grados"
 
+function temperaturaDePlaneta (planeta){
+  return planeta.nombre+" tiene una temperatura promedio de "+ planeta.temperaturaPromedio  +" grados";
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
