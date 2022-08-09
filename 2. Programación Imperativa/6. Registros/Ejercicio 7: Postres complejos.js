@@ -11,3 +11,10 @@ let lemonPie = { ingredientes: ["jugo de limón", "almidón de maíz", "leche", 
 > masDificilDeCocinar(flanCasero, cheesecake)
 { ingredientes: ["huevos", "leche", "azúcar", "vainilla"], tiempoDeCoccion: 50 }
 
+function masDificilDeCocinar(regPostre1, regPostre2){
+  if(longitud(regPostre1.ingredientes) > longitud(regPostre2.ingredientes)){
+    return regPostre1;
+  } else {
+    return regPostre2;
+  }
+}
