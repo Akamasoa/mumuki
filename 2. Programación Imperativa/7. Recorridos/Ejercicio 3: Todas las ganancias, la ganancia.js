@@ -36,3 +36,11 @@ function gananciaTotal3(balancesDeUnPeriodo) {
 
 //¿Empezás a ver un patrón? Tratá de escribir gananciaTotal4 que funcione para 4 elementos.
 
+function gananciaTotal4(balancesDeUnPeriodo) {
+  let sumatoria = 0;
+  sumatoria = sumatoria + balancesDeUnPeriodo[0].ganancia;
+  sumatoria = sumatoria + balancesDeUnPeriodo[1].ganancia;
+  sumatoria = sumatoria + balancesDeUnPeriodo[2].ganancia;
+  sumatoria = sumatoria + balancesDeUnPeriodo[3].ganancia;
+  return sumatoria;
+}
