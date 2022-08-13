@@ -9,3 +9,10 @@
   ])
 [40, 12, 8]
 
+function ganancias(balancesDeUnPeriodo) {
+  let ganancias = [];
+  for (let balance of balancesDeUnPeriodo) {
+    agregar(ganancias, balance.ganancia);
+  }
+  return ganancias;
+}
