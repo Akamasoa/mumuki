@@ -2,3 +2,12 @@
 
 //Completá la función balancesPositivos que toma los balances de un período y devuelve una lista con aquellos cuya ganancia fue mayor a cero.
 
+function balancesPositivos(balancesDeUnPeriodo) {
+  let balances = [];
+  for (let balance of balancesDeUnPeriodo) {
+    if(balance.ganancia > 0){
+      agregar(balances, balance);
+    }
+  }
+  return balances;
+}
