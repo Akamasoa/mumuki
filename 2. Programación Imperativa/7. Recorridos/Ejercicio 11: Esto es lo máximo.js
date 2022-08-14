@@ -12,3 +12,6 @@
   ])
 87
 
+function maximaGanancia (balancesDeUnPeriodo){
+  return maximo(ganancias(balancesDeUnPeriodo));
+}
