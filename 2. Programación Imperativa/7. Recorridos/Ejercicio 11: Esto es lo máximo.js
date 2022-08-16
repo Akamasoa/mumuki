@@ -15,3 +15,6 @@
 function maximaGanancia (balancesDeUnPeriodo){
   return maximo(ganancias(balancesDeUnPeriodo));
 }
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
+//Si hay una función para calcular el máximo de una lista también hay una para calcular el mínimo. ¿Te imaginás como se llama?
