@@ -10,3 +10,9 @@
   ])
 8
 
+function minimaGananciaPositiva (balancesDeUnPeriodo){
+  return minimo(gananciasDeBalancesPositivos(balancesDeUnPeriodo));
+}
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
+//¡Muy bien! Solo queda un ejercicio por delante.
