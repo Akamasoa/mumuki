@@ -11,3 +11,6 @@ function balancesPositivos(balancesDeUnPeriodo) {
   }
   return balances;
 }
+
+// ¡Muy bien! Tu solución pasó todas las pruebas
+//¡Muy bien! Ahora ya sabemos cómo filtrar una lista. En criollo, aprendimos a obtener los elementos de una lista que cumplen una condición determinada. En este caso obtuvimos una nueva lista con los balances que presentaban una ganancia positiva.
