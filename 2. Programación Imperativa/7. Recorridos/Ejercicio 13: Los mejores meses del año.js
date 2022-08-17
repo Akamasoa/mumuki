@@ -36,3 +36,26 @@ mesesAfortunados, devuelve aquellos meses que fueron afortunados.
 
 //Definí las funciones meses, afortunados, mesesAfortunados.
 
+function meses(regMeses){
+  let meses = [];
+  for(let estemes of regMeses){
+    agregar(meses, estemes.mes);
+  }
+  return meses;
+}
+function afortunados(regMeses){
+  let afortunados = [];  
+  for (let mesrico of regMeses){
+    if (mesrico.ganancia > 1000){
+      agregar(afortunados, mesrico);      
+    }
+  }
+  return afortunados;
+}
+function mesesAfortunados(regMeses){
+  let mesesAfortunados = [];
+  for (let supermes of meses(afortunados(regMeses))){
+     agregar(mesesAfortunados, supermes);
+      }
+  return mesesAfortunados;
+}
