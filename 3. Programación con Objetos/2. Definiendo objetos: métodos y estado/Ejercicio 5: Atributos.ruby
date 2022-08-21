@@ -19,3 +19,22 @@ end
 #cambiá la definición del método volar_en_circulos! para que utilice la expresión simplificada;
 #definí la versión correcta del método comer_lombriz!, que provoca que Pepita gane 20 puntos de energía;
 
+module Pepita
+    @energia = 100
+  
+    def self.volar_en_circulos!
+        @energia -= 10
+    end
+  def self.comer_lombriz!
+    @energia += 20
+  end
+  
+    # Seguí por acá...
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Acabamos de aprender un nuevo elemento del paradigma de objetos: los atributos (los cuales escribiremos anteponiendo @), son objetos que nos permiten representar una característica de otro objeto. Un objeto conoce a todos sus atributos por lo que puede enviarles mensajes, tal como hicimos con @energia.
+
+#Entonces, si le pude enviar mensajes a @energia, ¿eso significa que los números también son objetos?
+#¡Claro que sí! ¡Todo-todo-todo es un objeto!
