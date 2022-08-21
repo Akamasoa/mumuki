@@ -9,3 +9,12 @@
 
 #Veamos si va quedando claro: escribí un programa que haga que Pepita coma 500 gramos de alpiste, vuele a Iruya, y finalmente vuelva a Obera.
 
+Pepita.comer_alpiste! 500
+Pepita.volar_hacia! Iruya
+Pepita.volar_hacia! Obera
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¡Perfecto!
+
+#Un detalle: en Ruby, a veces, los paréntesis son opcionales. Por eso, cuando no sean imprescindibles los omitiremos.
