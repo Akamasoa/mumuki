@@ -1,0 +1,26 @@
+¡Hola de nuevo!
+
+Ya aprendiste que en un ambiente hay objetos que hacen cosas, y que nos comunicamos con ellos mediante el envío de mensajes.
+
+En la lección anterior, creamos por vos todos los objetos. Peeeero esto no siempre será así: en general, programar con objetos se trata también de crearlos (es decir, traerlos al mundo) y decirles cómo se deben comportar.
+
+¡Aprendamos entonces a crear objetos!
+
+Ejercicios 
+ 1. Creando a Pepita
+ 2. Pepita, ¿me entendés?
+ 3. Los mejores, los únicos, los métodos en objetos
+ 4. Perdiendo energía
+ 5. Atributos
+ 6. Conociendo el país
+ 7. Leyendo el estado
+ 8. Cuestión de estado
+ 9. ¿Dónde estás?
+ 10. Volando alto
+ 11. Delegar es bueno
+ 12. ¿Es mi responsabilidad?
+Con lo que aprendiste en esta lección, ya podés crear un programa completo, creando los objetos que te sean necesarios.
+
+Vimos además dos de los conceptos más poderosos del paradigma: la delegación y la distribución de responsabilidades. Estas herramientas son el principio básico para la división en subtareas y seguirán acompañándonos en todas las lecciones.
+
+¡Terminaste 3. Programación con Objetos! ¡Felicitaciones!
