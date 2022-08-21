@@ -19,3 +19,6 @@ Finalmente, coma tanto alpiste como el 10% de la energía que le haya quedado.
 Este programa tiene que andar sin importar con cuanta energía arranque Pepita.
 =end
 
+Pepita.comer_alpiste! 90
+Pepita.volar_hacia! Iruya
+Pepita.comer_alpiste! (Pepita.energia*0.1)
