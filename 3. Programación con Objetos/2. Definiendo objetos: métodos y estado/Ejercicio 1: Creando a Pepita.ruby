@@ -11,3 +11,11 @@ end
 
 #¿Te animás a modificar nuestro código para crear a Pepita?
 
+module Pepita
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¡Muy bien, Pepita vive!
+
+#Como dedujiste, la definición de un objeto se inicia con la palabra reservada module, luego el nombre del objeto (con la primera letra en mayúscula) y su fin se indica con un end.
