@@ -16,3 +16,21 @@ end
 
 #Veamos si se entiende: mirá los objetos en la solapa Biblioteca y escribí el estado de cada uno.
 
+estado_pepita = %w(
+  energia 
+  ciudad
+)
+  
+estado_kiano1100 = %w(
+  
+)
+  
+estado_rolamotoC115 = %w(
+  
+) 
+
+estado_enrique = %w(
+  celular 
+  dinero_en_billetera 
+  frase_favorita 
+)
