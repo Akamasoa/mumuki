@@ -32,3 +32,54 @@ Por ejemplo, si Pepita está en Obera y quiere volar a Iruya debe recorrer 670 k
 #Modificá el método volar_hacia! de Pepita para hacer el cálculo de la distancia y alterar su energía. Para acceder al kilometro inicial de Pepita tenes que hacer @ciudad.kilometro.
 #Para que el ejemplo tenga sentido, vamos a hacer que Pepita arranque con la energía en 1000.
 
+module Obera
+  def self.kilometro
+    1040
+  end
+end
+
+module Iruya
+  def self.kilometro
+    1710
+  end 
+end
+  module BuenosAires
+    def self.kilometro
+      0
+    end
+  end
+
+module Pepita
+  @energia = 1000
+  @ciudad = Obera
+  
+  def self.energia
+    @energia 
+  end
+  
+  def self.ciudad
+    @ciudad
+  end
+  
+  def self.cantar!
+    'pri pri pri'
+  end
+  
+  def self.comer_lombriz!
+    @energia += 20
+  end
+  
+  def self.volar_en_circulos!
+    @energia -= 10
+  end
+  
+  def self.volar_hacia!(destino)
+    @energia -= (destino.kilometro-ciudad.kilometro).abs/2
+    @ciudad = destino
+  end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+#¡Buen trabajo!
+
+#Cuando programamos en este paradigma solemos tener a disposición un montón de objetos que interactúan entre sí, y por lo tanto aprender cuándo usarlos y definirlos es una habilidad fundamental, que irás adquiriendo con la práctica.
