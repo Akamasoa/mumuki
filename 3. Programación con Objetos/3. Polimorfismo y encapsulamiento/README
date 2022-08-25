@@ -1,0 +1,32 @@
+Polimorfismo y encapsulamiento
+Ya que te vas familiarizando con este paradigma, aprovecharemos para hacer algunas reflexiones sobre cómo los objetos interactúan entre sí.
+
+A partir de los conceptos que ya conocés, veremos algunas herramientas conceptuales que nos ayudarán a contestar algunas preguntas:
+
+¿Puede un objeto interactuar con otros sin saber quiénes son?
+Si quiero poder hacer algo con dos objetos distintos ¿necesito que entiendan exactamente los mismos mensajes?
+¿Se puede modificar el estado de un objeto "desde afuera"?
+Esto, y algunas cosas más sobre aves, entrenamientos y gauchos, en esta lección. ¡Empecemos!
+
+Ejercicios 
+ 1. ¿Pepita está feliz?
+ 2. Reencuentro alternativo
+ 3. Repitamos qué pasa si no
+ 4. Voy a hacer, pero como yo quiero
+ 5. Llegó Pepo
+ 6. ¡A entrenar!
+ 7. Pachorra todoterreno
+ 8. Una golondrina diferente
+ 9. Un entrenamiento más duro
+ 10. ¿¿Polimor-qué??
+ 11. Forzando el polimorfismo
+ 12. Empieza el set
+ 13. El encapsulamiento
+ 14. Vamos terminando
+ 15. ¡Se va la que falta!
+ 
+En esta lección le dimos nombre al polimorfismo una idea con la que ya venías trabajando, pero sobre la que todavía no habíamos reflexionado. Este principio fundamental del paradigma de objetos nos permite que podamos interactuar de igual manera con diferentes objetos, con el único requisito de que todos ellos entiendan el o los mensajes que necesitamos enviarles.
+
+Relacionado a esto, hablamos del encapsulamiento que nos permite el paradigma, haciendo que cada objeto solo exponga lo necesario para interactuar con él y se reserve para su ámbito privado lo que no sea necesario compartir.
+
+En el caso de los atributos, esta exposición se logra implementando un getter (método que nos permite ver su valor) o un setter (método que nos permite modificar su valor). Y que nuestro código sea entendido fácilmente por otras personas, elegimos utilizar una convención para darle nombre a estos métodos.
