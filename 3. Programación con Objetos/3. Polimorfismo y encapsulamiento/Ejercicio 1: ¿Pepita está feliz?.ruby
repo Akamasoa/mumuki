@@ -10,3 +10,26 @@ Completá los métodos debil? y feliz? de Pepita.
 Como en esta lección no vamos a interactuar con las ciudades, hemos quitado todo lo relacionado a ellas de Pepita. Esto solo lo hacemos para que te sea más fácil escribir el código, no lo intentes en casa.
 =end
 
+module Pepita
+  @energia = 1000
+
+  def self.energia
+    @energia 
+  end
+
+  def self.volar_en_circulos!
+    @energia -= 10
+  end
+  
+  def self.comer_alpiste!(gramos)
+    @energia += gramos * 15
+  end  
+
+  def self.debil?
+    @energia <100
+  end
+  
+  def self.feliz?
+    @energia >1000
+  end
+end
