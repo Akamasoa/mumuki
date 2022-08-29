@@ -12,3 +12,18 @@ Creá a Pachorra, el entrenador de aves, y hacé que cuando reciba el mensaje en
 Para que no moleste, movimos el código de Pepita a la Biblioteca.
 =end
 
+module Pachorra
+  @Pepita
+  def self.entrenar_ave!
+    10.times {Pepita.volar_en_circulos!}
+    Pepita.comer_alpiste!(30)
+    5.times {Pepita.volar_en_circulos!}
+    Pepita.hacer_lo_que_quiera!
+  end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Aunque lo que hiciste funciona, es bastante rígido: para que Pachorra pueda entrenar a otro pájaro hay que modificar el método entrenar_ave! y cambiar el objeto al que le envía los mensajes.
+
+#¡Mejoremos eso entonces
