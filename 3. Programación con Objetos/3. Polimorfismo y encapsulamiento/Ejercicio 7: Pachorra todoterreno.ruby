@@ -12,3 +12,21 @@ Pachorra.entrenar_ave! # ahora entrena a Pepo
 Agregale a Pachorra el método firmar_contrato!(ave), de forma tal que cuando le enviemos el mensaje entrenar_ave! haga entrenar al último ave con el que haya firmado contrato.
 =end
 
+module Pachorra
+def self.ave
+  @ave
+end
+  def self.entrenar_ave!
+    10.times{ave.volar_en_circulos!}
+    ave.comer_alpiste! 30
+    5.times{ave.volar_en_circulos!}
+    ave.hacer_lo_que_quiera!
+  end
+  def self.firmar_contrato!(ave)
+    @ave=ave
+  end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Una forma posible de cambiar el objeto al que le enviamos mensajes es modificando el valor de un atributo, como estamos haciendo en este ejemplo
