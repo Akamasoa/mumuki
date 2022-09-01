@@ -9,3 +9,44 @@ Consultar si Eulogia está enojada.
 Consultar cuántas ganas de hablar tiene Mendieta.
 Modificar las ganas de hablar de Mendieta.
   
+module Inodoro
+  @cafeina_en_sangre = 90
+  @compinche
+
+  def self.cafeina_en_sangre
+    @cafeina_en_sangre
+  end
+
+  def self.compinche
+    @compinche
+  end
+
+  def self.compinche=(otro_compinche)
+    @compinche = otro_compinche
+  end
+end
+
+  module Eulogia
+    @enojada = false
+def self.enojada?
+      @enojada
+    end   
+  end
+
+  module Mendieta
+    @ganas_de_hablar = 5
+    
+    def self.ganas_de_hablar
+      @ganas_de_hablar
+    end
+
+    def self.ganas_de_hablar=(cantidad)
+      @ganas_de_hablar = cantidad
+    end
+  end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¡Excelente! Parece que los getters y setters quedaron claros.
+
+#Para finalizar esta lección vamos a repasar lo que aprendimos de polimorfismo.
