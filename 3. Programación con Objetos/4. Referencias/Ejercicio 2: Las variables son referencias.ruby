@@ -16,3 +16,11 @@ saludo.upcase
 
 #Veamos si se entiende hasta acá: creá una variable llamada despedida que apunte al objeto "adiós", y luego enviale el mensaje size().
 
+despedida = "adiós"
+despedida.size()
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¡Bien! Acabás de crear este ambiente, en criollo, el lugar donde viven los objetos con los cuales podemos interactuar: Dos referencias
+
+#También podemos hacer cosas como "hola".size. Allí no hay ninguna variable: ¿dónde está la referencia en ese caso? ¡Allá vamos!
