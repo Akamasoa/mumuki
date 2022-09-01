@@ -13,3 +13,10 @@
 
 #Veamos si queda claro: agregá al programa anterior una variable saludo_formal, inicializada con "buen día"
 
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¡Momento, momento!
+
+#¿Qué sucedió aquí? Hasta ahora habíamos visto que tenemos objetos y mensajes, y sólo le podíamos enviar mensajes a los objetos, como Pepita, 14, u "hola". ¿Le acabamos de enviar un mensaje a una variable?
+
+#Sí y no. Veamos por qué...
