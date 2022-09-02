@@ -29,3 +29,14 @@ despedida = "buen día"
 
 #Veamos otro ejemplo. Si tuvieramos el siguiente código...
 
+persona = "Graciela"
+hija_de_hector = "Graciela"
+hermana_de_tito = persona
+hija_de_elena = "Gracielita"
+hermana_de_ana = hermana_de_tito
+mama_de_gustavo = "hermana_de_ana"
+tia_de_gonzalo = hija_de_hector
+
+#... podríamos decir que solo hermana_de_tito y hermana_de_ana referencian al mismo objeto que persona.
+
+#Ya entendimos que dos strings con el mismo contenido no necesariamente son el mismo objeto. Pero esto puede ser poco práctico . ¿Cómo hacemos si realmente queremos saber si dos objetos, pese a no ser el mismo, tienen el mismo estado?
