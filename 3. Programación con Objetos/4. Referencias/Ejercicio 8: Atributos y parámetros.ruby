@@ -26,3 +26,16 @@ end
 
 #Escribí un programa que defina la ciudad de Pepita de forma que apunte a Iruya. Y pensá: ¿cuántas referencias a Iruya hay en este programa?
 
+#Ya definimos a Pepita por vos.
+#Ahora definí su ciudad...
+Pepita.ciudad = Iruya
+
+ #¡Muy bien! Tu solución pasó todas las pruebas
+
+#Lo pensaste?
+
+#Hay tres referencias a este objeto:
+
+#1.La propia referencia Iruya
+#2.El atributo @ciudad de Pepita
+#3.una_ciudad: porque los parámetros de los métodos ¡también son referencias! Sólo que su vida es más corta: viven lo que dure la evaluación del método en el que se pasan.
