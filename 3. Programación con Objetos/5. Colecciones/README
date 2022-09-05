@@ -1,0 +1,25 @@
+Colecciones
+Ya lo sabemos: un objeto es una "cosa" o ente que cumple ciertas responsabilidades. Pero... ¿qué sucede cuando queremos tratar no una sola cosa, sino a varias al mismo tiempo?
+
+¡Conozcamos a las colecciones!
+
+Ejercicios 
+ 1. Entrando en Calor
+ 2. Creando una lista
+ 3. Algunos mensajes básicos
+ 4. Set o no set
+ 5. Mejorando la Juegoteca
+ 6. ¿Bloques? ¿Eso se come?
+ 7. Bloques con parámetros
+ 8. Filtrando quienes cumplen
+ 9. El que busca encuentra
+ 10. ¿Alguno cumple? ¿Todos cumplen?
+ 11. El viejo y querido map
+ 12. ¿Cuántos cumplen? ¿Cuánto suman?
+ 13. Jugando a todo
+¡Felicitaciones! A lo largo de esta guía aprendiste:
+
+Qué son las colecciones
+Qué mensajes básicos entienden: agregar y quitar elementos mediante push y delete, preguntar si existe un elemento usando include?, y saber el tamaño de la colección enviándole size
+Qué son los bloques, cómo se aplican y cómo se les pasan parámetros
+Mensajes más complejos que utilizan bloques como select, find, map, all?, any?, count, sum y each. ¡Son un montón!
