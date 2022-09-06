@@ -6,3 +6,57 @@ Metroide: es violento sólo si @nivel_espacial es mayor a 5. Este nivel arranca 
 
 #Definí estos tres objetos de forma que entiendan los mensajes dificultad, violento? y jugar!(un_tiempo).
   
+module CarlosDuty
+  @cantidad_logros=0
+  def self.dificultad
+    30-@cantidad_logros*0.5
+  end
+  def self.violento?
+    TRUE
+  end
+  def self.jugar!(un_tiempo)
+    if un_tiempo>2
+      @cantidad_logros+=1
+    end
+  end
+end
+
+module TimbaElLeon
+  
+  @dificultad=25
+    def self.violento?
+    FALSE
+  end
+  def self.jugar!(un_tiempo)
+    @dificultad+=un_tiempo
+   end
+  def self.dificultad
+   @dificultad
+  end
+
+end
+
+module Metroide
+  @nivel_espacial=3
+ 
+  def self.violento?
+    if @nivel_espacial>5
+      true
+    end
+  end
+  def self.jugar!(un_tiempo)
+    @nivel_espacial+=1
+  end
+  def self.dificultad
+   100
+  end
+    
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¡Ya tenemos creados los objetos para nuestra colección de videojuegos!
+
+#Es importante que notes que todos estos objetos responden a los mismos mensajes: dificultad, violento? y jugar!(un_tiempo). Como aprendiste con las golondrinas, nuestros videojuegos son polimórficos para ese conjunto de mensajes.
+
+#¡Esto significa que podemos enviarles los mismos mensajes a cualquiera de los videojuegos y usarlos indistintamente!
