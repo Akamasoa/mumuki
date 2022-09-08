@@ -14,3 +14,9 @@ sumar_a_otros_dos = proc { |un_sumando, otro_sumando| un_numero = un_numero + un
 
 #Asignale a la variable jugar_a_timba un bloque que reciba un único parámetro. El bloque recibe una cantidad de minutos y debe hacer que se juegue a TimbaElLeon durante ese tiempo, pero recordá que jugar! espera una cantidad de horas.
   
+jugar_a_timba = #Definí el bloque acá
+jugar_a_timba = proc{| un_tiempo| TimbaElLeon.jugar!(un_tiempo/60) }
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Quizá estés pensando, ¿qué tiene que ver todo esto con las colecciones? ¡Paciencia! En el siguiente ejercicio veremos cómo combinar colecciones y bloques para poder enviar mensajes más complejos.
