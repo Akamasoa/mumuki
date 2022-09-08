@@ -14,3 +14,19 @@ mayores_a_3 = algunos_numeros.select { |un_numero| un_numero > 3 }
 
 #¡Ahora te toca a vos! Definí el método juegos_violentos que retorna los juegos de la Juegoteca que cumplan violento?.
 
+module Juegoteca
+
+  @juegos=[CarlosDuty,TimbaElLeon,Metroide]
+  def self.juegos
+    @juegos
+    end
+  def self.juegos_violentos
+    juegos_violentos=juegos.select{|juego| juego.violento?}
+  end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¿Y qué pasa con la colección original, como algunos_numeros o juegos? ¿Se modifica al aplicar select?
+
+#¡No, para nada! El select no produce efecto.
