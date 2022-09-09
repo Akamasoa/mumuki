@@ -12,3 +12,16 @@ uno_mayor_a_3 = algunos_numeros.find { |un_numero| un_numero > 3 }
 
 #Veamos si se entiende: hacé que la Juegoteca entienda juego_mas_dificil_que(una_dificultad), que retorna algún juego en la Juegoteca con más dificultad que la que se pasa como argumento.
 
+module Juegoteca
+  @juegos=[CarlosDuty,TimbaElLeon,Metroide]
+  def self.juegos
+    @juegos
+    end
+  def self.juego_mas_dificil_que(una_dificultad)
+   juego_mas_dificil_que=@juegos.find{|juego|juego.dificultad>una_dificultad}
+  end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Un dato curioso para tener en cuenta: ¡los mensajes find y detect hacen exactamente lo mismo!
