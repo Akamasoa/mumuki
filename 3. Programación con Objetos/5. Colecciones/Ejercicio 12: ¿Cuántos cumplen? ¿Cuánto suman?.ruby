@@ -7,3 +7,17 @@ estudiantes.count { |un_estudiante| un_estudiante.aprobo? }
 estudiantes.sum { |un_estudiante| un_estudiante.nota_en_examen }
 #eamos si se entiende: agregá a la Juegoteca el método promedio_de_violencia, cuyo valor sea la sumatoria de dificultad de los juegos violentos dividida por la cantidad de juegos violentos de la Juegoteca.
 
+module Juegoteca
+
+  @juegos=[CarlosDuty,TimbaElLeon,Metroide]
+  def self.juegos
+    @juegos
+    end
+  def self.juegos_violentos
+    juegos_violentos=juegos.select{|juego| juego.violento?}
+  end
+  def self.promedio_de_violencia
+    juegos_violentos.sum{|juego| juego.dificultad}/juegos_violentos.count{|juego| juego.violento?}
+  end
+end
+
