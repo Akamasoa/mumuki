@@ -9,3 +9,22 @@
 
 #Agregá a la Juegoteca un método llamado dificultad_violenta que retorne una colección con la dificultad de sus juegos_violentos.
 
+module Juegoteca
+
+  @juegos=[CarlosDuty,TimbaElLeon,Metroide]
+  def self.juegos
+    @juegos
+    end
+  def self.juegos_violentos
+    juegos_violentos=juegos.select{|juego| juego.violento?}
+  end
+  def self.dificultad_violenta
+    juegos_violentos.map{|juego| juego.dificultad}
+  end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Antes de seguir, un caso particular. Dijimos que map no modifica la colección original. Pero, ¿qué ocurriría si el mensaje dentro del bloque en el map sí tiene efecto?
+
+#En ese caso se modificaría la colección original, pero sería un mal uso del map . Lo que nos interesa al mapear es lo que devuelve el mensaje que enviamos, no provocar un efecto sobre los objetos.
