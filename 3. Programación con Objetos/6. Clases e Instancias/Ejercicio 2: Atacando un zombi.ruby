@@ -4,3 +4,17 @@
 
 #Veamos si se entiende: definí el objeto Juliana que pueda atacar! a un zombi haciéndolo recibir_danio!, e inicializá su energía en 1000.
 
+module Juliana
+  @energia=1000
+  def self.energia
+    @energia
+    end
+  def self.atacar!(zombie,
+    puntos)
+    zombie.recibir_danio!(puntos)
+    end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Ahora que Juliana sabe atacar!, veamos contra quién más se puede enfrentar...
