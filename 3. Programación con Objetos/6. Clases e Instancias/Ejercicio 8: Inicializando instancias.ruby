@@ -8,3 +8,20 @@
 
 #Luego, definí juliana y anastasia como instancias de la nueva clase Sobreviviente.
 
+class Sobreviviente
+  
+  def initialize
+    @energia=1000
+  end
+  
+  def energia
+    @energia
+  end
+  def atacar!(zombie,
+    puntos)
+    zombie.recibir_danio!(puntos)
+  end
+end
+juliana = Sobreviviente.new
+anastasia = Sobreviviente.new
+
