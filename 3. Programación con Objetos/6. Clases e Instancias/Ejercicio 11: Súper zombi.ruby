@@ -6,3 +6,42 @@
 
 #¡A correr! Definí la clase SuperZombi aplicando las modificaciones necesarias a la clase Zombi.
 
+class SuperZombi
+  def initialize(salud)
+    @salud=(salud)
+  end
+  
+  def gritar
+   "¡agrrrg!"
+  end 
+  
+  def salud
+    @salud
+  end
+
+  def sabe_correr?
+     TRUE
+  end
+    def recibir_danio!(
+    puntos)
+    @salud=[(@salud-=(3*puntos)),0].max
+   end 
+    def sin_vida? 
+    @salud==0 
+  end
+  def regenerarse!
+    @salud=100
+  end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Veamos por qué decidimos hacer una nueva clase, SuperZombi:
+
+Pueden regenerarse!, a diferencia de un Zombi
+sabe_correr? tiene comportamiento distinto a la clase Zombi
+recibir_danio! tiene comportamiento distinto a la clase Zombi
+
+#Sin embargo habrás notado que, aunque esos últimos dos métodos son distintos, hay cuatro que son idénticos: salud, gritar, sin_vida?, y su inicialización mediante initialize. ¡Hasta tienen un mismo atributo, @salud! ¿Acaso eso no significa que estamos repitiendo mucha lógica en ambas clases?
+
+#¡Así es! Pero todavía no contamos con las herramientas necesarias para solucionarlo.
