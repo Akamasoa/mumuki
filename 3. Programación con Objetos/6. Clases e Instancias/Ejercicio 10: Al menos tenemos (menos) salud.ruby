@@ -23,3 +23,35 @@ arbolito = Planta.new 110
 #¡Y de esa forma creamos tres plantas de 2 , 45 y 110 centímetros de @altura!
 
 #¡Ahora te toca a vos! Modificá la clase Zombi para que initialize pueda recibir la salud inicial del mismo.
+
+class Zombi
+  def initialize(salud)
+    @salud = (salud)
+  end
+  
+  def gritar
+   "¡agrrrg!"
+    end 
+  def salud
+    @salud
+    end
+  def sabe_correr?
+    FALSE
+    end
+  def recibir_danio!(
+    puntos)
+    @salud=[(@salud-=(2*puntos)),0].max
+   end 
+  def sin_vida? 
+    @salud==0 
+  end
+
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#Lo que hiciste recién en la clase Zombi fue especificar un constructor: decirle a la clase cómo querés que se construyan sus instancias.
+
+#Los constructores pueden recibir más de un parámetro. Por ejemplo, si de una Planta no sólo pudiéramos especificar su altura, sino también su especie y si da o no frutos...
+
+jazmin = Planta.new 70, "Jasminum fruticans", true
