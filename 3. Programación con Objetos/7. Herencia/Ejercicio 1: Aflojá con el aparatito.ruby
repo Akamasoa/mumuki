@@ -9,3 +9,20 @@ Los celulares se pueden cargar_a_tope! para dejar la batería en 100.
 Veamos si se entiende: definí la clase Celular y también los métodos initialize, utilizar! y cargar_a_tope!.
 =end
 
+class Celular
+  def initialize
+    @bateria=100
+  end
+  def utilizar!(minutos)
+    @bateria=@bateria-(minutos/2)
+  end
+  def cargar_a_tope!
+    @bateria=100
+  end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¡Excelente!
+
+#Pero bien sabemos que no solo utilizamos celulares y que en los últimos años las computadoras portatiles le ganaron terreno a las de escritorio...
