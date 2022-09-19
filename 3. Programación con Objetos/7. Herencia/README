@@ -1,0 +1,25 @@
+En la guía anterior aprendimos que cuando varios objetos tienen comportamiento en común podemos crear una clase que lo agrupe. Allí se define ese comportamiento para evitar la repetición de lógica entre los distintos objetos.
+
+Sin embargo, cuando tenemos clases que tienen una parte de comportamiento común pero otra que difiere, las herramientas que vimos hasta el momento nos quedan cortas.
+
+¡Pero ya no más! ¡Adentrémonos en el mundo de la herencia!
+
+Ejercicios
+ 1. Aflojá con el aparatito
+ 2. Notebook
+ 3. Su superclase
+ 4. Arte abstracto
+ 5. ¿Me estás cargando?
+ 6. Prueba sorpresa
+ 7. Vamos de paseo
+ 8. Subí nomás
+ 9. Inconsciente colectivo
+ 10. Es un trabajo para super
+ 11. El regreso de los zombis
+ 12. Concretemos la herencia
+ 13. La defensa
+¡Ya tenemos una nueva herramienta para evitar repetir lógica!
+
+Recordá que la herencia es un concepto amplio que tiene muchas variantes: primero vimos clases abstractas, que no se instancian. También aprendimos a redefinir los métodos cuando heredamos un método pero queremos que se comporte de otra forma.
+
+Luego vimos un caso de herencia de una clase concreta, y cómo las subclases heredan los métodos de su superclase. Por último aprendimos a usar super: cuando una subclase lo envía, se evalúa el método del mismo nombre de su superclase.
