@@ -12,3 +12,40 @@ ambos saben responder si entran? una cantidad de personas. Esto sucede cuando es
 
 #Definí las clases Moto, Auto y MedioDeTransporte y hace que las dos primeras hereden de la tercera. También definí los métodos initialize, recorrer!, cargar_combustible!, entran? y maximo_personas donde correspondan.
 
+class MedioDeTransporte
+  def initialize(litros)
+    @combustible=(litros)
+  end
+  
+  def cargar_combustible!(litros)
+    @combustible+=litros
+  end
+  
+  def entran?(cant)
+    self.maximo_personas >= (cant)
+  end
+end
+
+class Moto<MedioDeTransporte
+  def recorrer!(km)
+    @combustible=@combustible-(km)
+   end
+   def maximo_personas
+    2
+  end
+end
+
+class Auto<MedioDeTransporte
+  def maximo_personas
+    5
+  end
+  def recorrer!(km)
+    @combustible=@combustible-(km)/2
+   end
+end
+
+# ¡Muy bien! Tu solución pasó todas las pruebas
+
+#¡Excelente!
+
+#Estaría bueno tener algún medio de transporte más, ¿no? Acompañanos a la próxima parada.
