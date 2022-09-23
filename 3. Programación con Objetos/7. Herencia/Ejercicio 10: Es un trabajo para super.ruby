@@ -24,3 +24,23 @@ end
 
 #¡Ahora te toca a vos! Redefiní el método cargar_combustible! en Colectivo, de modo que haga lo mismo que cualquier MedioDeTransporte y además se quede sin pasajeros. Recordá utilizar super para evitar repetir lógica.
 
+class Colectivo<MedioDeTransporte
+  def initialize
+    @combustible=100
+    @pasajeros=0
+  end
+  def entran?(cant)
+    self.maximo_personas >= (cant)
+  end
+  def maximo_personas
+    40
+  end
+  def recorrer!(km)
+    @combustible=@combustible-(km)*2
+   end
+  def cargar_combustible!(litros)
+    super
+    @pasajeros=0
+  end
+end
+
